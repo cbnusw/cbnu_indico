@@ -277,4 +277,4 @@ class IndicoConfig(object):
 config = IndicoConfig()
 ##for checking config
 print("for config check")
-print(dir(config))
+print(config.IMAGES_BASE_URL())
