@@ -275,6 +275,6 @@ class IndicoConfig(object):
 
 #: The global Indico configuration
 config = IndicoConfig()
-##설정 확인하기 위해 추가
-print("for 설정확인")
+##for checking config
+print("for config check")
 print(dir(config))
