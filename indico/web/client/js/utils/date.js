@@ -29,15 +29,17 @@ export function serializeTime(dt, format = moment.HTML5_FMT.TIME) {
 
 export async function setMomentLocale(locale) {
   const [language, territory] = locale.toLowerCase().split('_');
+  console.log('error gottcah : ', language,' ',territory)
   let momentLocale;
 
-  if (language === territory) {
+  if (language === territory || language=='en') {/*language가 그냥 en으로 넘겨지기 때문에 language랑 territory랑 같을 일이 없음 .그래서 뒤에 or 조건 넣어서 해결되나 한 번 보려고*/
     momentLocale = language;
   } else {
     momentLocale = `${language}-${territory}`;
   }
 
   if (momentLocale !== 'en') {
+    console.log('momentLocale : ',momentLocale)
     await import(/* webpackChunkName: "moment-locale/[request]" */ `moment/locale/${momentLocale}`);
   }
   moment.locale(momentLocale);

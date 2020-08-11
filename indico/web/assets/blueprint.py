@@ -104,6 +104,7 @@ def _get_i18n_locale(locale_name, react=False):
 @assets_blueprint.route('!/static/custom/files/<path:filename>', endpoint='custom', defaults={'folder': 'files'})
 def static_custom(folder, filename):
     customization_dir = config.CUSTOMIZATION_DIR
+    print(os.path.join(config.CUSTOMIZATION_DIR,folder),filename)
     if not customization_dir:
         raise NotFound
     return send_from_directory(os.path.join(customization_dir, folder), filename)

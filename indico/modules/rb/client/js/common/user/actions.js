@@ -46,7 +46,7 @@ export function fetchUserInfo() {
       USER_INFO_RECEIVED,
       FETCH_USER_INFO_ERROR
     )(dispatch);
-
+    console.log('프로미스 에러 찾기 : ',result.data)
     if (result.data) {
       await setMomentLocale(result.data.language);
       // dispatch this explicitly after the async setMomentLocale to ensure

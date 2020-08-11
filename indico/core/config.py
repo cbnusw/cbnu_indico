@@ -275,6 +275,3 @@ class IndicoConfig(object):
 
 #: The global Indico configuration
 config = IndicoConfig()
-##for checking config
-print("for config check")
-print(config.IMAGES_BASE_URL())
