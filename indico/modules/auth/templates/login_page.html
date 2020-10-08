@@ -6,6 +6,7 @@
         {% if active_provider %}
             <div class="login-container clearfix">
                 <img class="header-logo" src="{{ indico_config.IMAGES_BASE_URL }}/logo_indico.png">
+                <img class="header-logo" src="{{ url_for('assets.custom',filename='logo-hs-white.png')}}" />
                 {% if login_reason %}
                     <div class="login-reason-box">
                         {{ login_reason }}
@@ -59,18 +60,18 @@
         {% if indico_config.LOCAL_IDENTITIES and indico_config.LOCAL_REGISTRATION %}
             <p class="register">
                 {% trans url=url_for('.register', next=request.args.get('next')) -%}
-                    If you do not have an Indico account yet, you can <a href="{{ url }}">create one here</a>.
+                    계정이 없다면 <a href="{{ url }}">회원 가입</a>.
                 {%- endtrans %}
             </p>
         {% elif indico_config.EXTERNAL_REGISTRATION_URL %}
             <p class="register">
                 {% trans url=indico_config.EXTERNAL_REGISTRATION_URL -%}
-                    If you do not have an account yet, you can <a href="{{ url }}" target="_blank">create one here</a>.
+                    계정이 없다면 <a href="{{ url }}" target="_blank">회원가입</a>.
                 {%- endtrans %}
             </p>
         {% endif %}
         <div class="link">
-            <a class="icon-prev" href="/">{% trans %}Back{% endtrans %}</a>
+            <a class="icon-prev" href="/">{% trans %}뒤로가기{% endtrans %}</a>
         </div>
 
         {% include 'footer.html' %}
