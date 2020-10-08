@@ -6,11 +6,12 @@
         {% if active_provider %}
             <div class="login-container clearfix">
                 <img class="header-logo" src="{{ indico_config.IMAGES_BASE_URL }}/logo_indico.png">
-<<<<<<< HEAD
+
                 <img class="header-logo" src="{{url_for('assets.custom',filename='cbnu_logo.png')}}">
-=======
                 <img class="header-logo" src="{{ url_for('assets.custom',filename='logo-hs-white.png')}}" />
->>>>>>> origin/master
+
+
+                <img class="header-logo" src="{{ url_for('assets.custom',filename='logo-hs-white.png')}}" />
                 {% if login_reason %}
                     <div class="login-reason-box">
                         {{ login_reason }}
