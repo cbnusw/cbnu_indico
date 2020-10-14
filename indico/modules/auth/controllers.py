@@ -86,6 +86,12 @@ class RHLogin(RH):
             active_provider = provider = _get_provider(request.form['_provider'], False)
             form = provider.login_form()
             if form.validate_on_submit():
+                data = {"no":form.data['identifier'], "password":form.data['password']}
+                access_token_response = requests.post('https://swauth.cbnu.ac.kr/local/login', data=json.dumps(data), headers={"Content-Type":"application/json"})
+                body = access_token_response.text
+                if body['success'] == True: # 로그인 성공시
+                    print('oAuth 로그인 성공')
+                    print('access_token :', body['access_token'])
                 response = multipass.handle_login_form(provider, form.data)
                 if response:
                     return response
