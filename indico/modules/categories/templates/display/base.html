@@ -9,9 +9,9 @@
             {% block title %}
                 {% if category.title == 'Home' and category.is_root %}
                     {% if category.children %}
-                        {% trans %}Main categories{% endtrans %}
+                        {% trans %}메인 카테고리{% endtrans %}
                     {% else %}
-                        {% trans %}All events{% endtrans %}
+                        {% trans %}모든 이벤트{% endtrans %}
                     {% endif %}
                 {% else %}
                     {{ category.title }}
