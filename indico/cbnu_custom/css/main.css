@@ -1,4 +1,33 @@
 /*로그인 페이지 custom*/
+
 .login-page {
     background-color: #f8f8f8;
+}
+
+.body {
+    background-color: #F5F5F5;
+}
+
+.header>.page-header {
+    background-color: white;
+}
+
+div.main-breadcrumb,
+div.main-breadcrumb.management {
+    background-color: #0077C1;
+    color: white;
+}
+
+.toolbar.global-menu {
+    background-color: white;
+    color: black;
+}
+
+.toolbar.global-menu a {
+    color: black;
+}
+
+.toolbar.global-menu>a:hover {
+    background-color: white !important;
+    color: #0077C1;
 }
