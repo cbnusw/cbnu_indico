@@ -33,15 +33,15 @@ oauth = IndicoOAuth2Provider()
 logger = Logger.get('oauth')
 
 
-@signals.menu.items.connect_via('admin-sidemenu')
-def _extend_admin_menu(sender, **kwargs):
-    if session.user.is_admin:
-        return SideMenuItem('applications', _('Applications'), url_for('oauth.apps'), section='integration')
+#@signals.menu.items.connect_via('admin-sidemenu')
+#def _extend_admin_menu(sender, **kwargs):
+#    if session.user.is_admin:
+#        return SideMenuItem('applications', _('Applications'), url_for('oauth.apps'), section='integration')
 
 
-@signals.menu.items.connect_via('user-profile-sidemenu')
-def _extend_profile_sidemenu(sender, user, **kwargs):
-    yield SideMenuItem('applications', _('Applications'), url_for('oauth.user_profile'), 40, disabled=user.is_system)
+#@signals.menu.items.connect_via('user-profile-sidemenu')
+#def _extend_profile_sidemenu(sender, user, **kwargs):
+#    yield SideMenuItem('applications', _('Applications'), url_for('oauth.user_profile'), 40, disabled=user.is_system)
 
 
 @signals.app_created.connect

@@ -35,10 +35,10 @@ legal_settings = SettingsProxy('legal', {
 })
 
 
-@signals.menu.items.connect_via('admin-sidemenu')
+'''@signals.menu.items.connect_via('admin-sidemenu')
 def _sidemenu_items(sender, **kwargs):
     if session.user.is_admin:
-        yield SideMenuItem('legal_messages', _('Legal/Disclaimers'), url_for('legal.manage'), section='security')
+        yield SideMenuItem('legal_messages', _('Legal/Disclaimers'), url_for('legal.manage'), section='security')'''
 
 
 @template_hook('page-footer', priority=50)
