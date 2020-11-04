@@ -34,7 +34,7 @@ endcall %} {% call simple_form(form, back_button=false) %} {% set legend %} {% t
     <dt>{% trans %}No-reply email{% endtrans %}</dt>
     <dd>{{ indico_config.NO_REPLY_EMAIL }}</dd>
 </dl>
-{% endcall %} {% for legend, fields in form._fieldsets %} {% call form_fieldset(legend) %} {{ form_rows(form, fields=fields) }} {% endcall %} {% endfor %} {% endcall %} {# TODO: move this to some kind of admin dashboard once we have one #} {% if cephalopod_data.enabled
+{% endcall %} {% for legend, fields in form._fieldsets %} {% call form_fieldset("사이트") %} {{ form_rows(form, fields=fields) }} {% endcall %} {% endfor %} {% endcall %} {# TODO: move this to some kind of admin dashboard once we have one #} {% if cephalopod_data.enabled
 %}
 <script>
     checkCephalopodSynced({
