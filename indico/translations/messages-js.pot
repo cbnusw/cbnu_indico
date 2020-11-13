@@ -592,7 +592,7 @@ msgstr ""
 
 #: indico/web/client/js/jquery/extensions/global.js:244
 msgid "Create new lecture"
-msgstr ""
+msgstr "새 이벤트 생성"
 
 #: indico/web/client/js/jquery/extensions/global.js:245
 msgid "Create new meeting"

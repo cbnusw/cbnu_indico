@@ -59,11 +59,11 @@ def _get_extra_user_prefs(sender, **kwargs):
         return RBUserPreferences
 
 
-@signals.menu.items.connect_via('admin-sidemenu')
-def _extend_admin_menu(sender, **kwargs):
-    if config.ENABLE_ROOMBOOKING and session.user.is_admin:
-        url = url_for('rb.roombooking', path='admin')
-        return SideMenuItem('rb', _('Room Booking'), url, 70, icon='location')
+#@signals.menu.items.connect_via('admin-sidemenu')
+#def _extend_admin_menu(sender, **kwargs):
+#    if config.ENABLE_ROOMBOOKING and session.user.is_admin:
+#        url = url_for('rb.roombooking', path='admin')
+#        return SideMenuItem('rb', _('Room Booking'), url, 70, icon='location')
 
 
 @signals.menu.items.connect_via('top-menu')

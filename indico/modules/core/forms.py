@@ -30,5 +30,4 @@ class SettingsForm(IndicoForm):
     def _fieldsets(self):
         return [
             (_('Site'), [x for x in self._fields if x.startswith('core_')]),
-            (_('Social'), [x for x in self._fields if x.startswith('social_')]),
         ]

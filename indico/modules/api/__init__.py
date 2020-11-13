@@ -57,13 +57,11 @@ def _merge_users(target, source, **kwargs):
             db.session.flush()  # flush the deactivation so we can reassociate the user
             ak_merged.user = target
 
+#@signals.menu.items.connect_via('admin-sidemenu')
+#def _extend_admin_menu(sender, **kwargs):
+#    if session.user.is_admin:
+#        return SideMenuItem('api', _("API"), url_for('api.admin_settings'), section='integration')
 
-@signals.menu.items.connect_via('admin-sidemenu')
-def _extend_admin_menu(sender, **kwargs):
-    if session.user.is_admin:
-        return SideMenuItem('api', _("API"), url_for('api.admin_settings'), section='integration')
-
-
-@signals.menu.items.connect_via('user-profile-sidemenu')
-def _extend_profile_sidemenu(sender, **kwargs):
-    yield SideMenuItem('api', _('HTTP API'), url_for('api.user_profile'), 30)
+#@signals.menu.items.connect_via('user-profile-sidemenu')
+#def _extend_profile_sidemenu(sender, **kwargs):
+#    yield SideMenuItem('api', _('HTTP API'), url_for('api.user_profile'), 30)

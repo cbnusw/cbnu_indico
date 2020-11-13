@@ -58,11 +58,10 @@ def _import_modules(*args, **kwargs):
 def _send_initial_heartbeat(*args, **kwargs):
     heartbeat.delay(initial=True)
 
-
-@signals.menu.items.connect_via('admin-sidemenu')
-def _extend_admin_menu(sender, **kwargs):
-    if session.user.is_admin:
-        return SideMenuItem('celery', _("Tasks"), url_for('celery.index'), 20, icon='time')
+#@signals.menu.items.connect_via('admin-sidemenu')
+#def _extend_admin_menu(sender, **kwargs):
+#    if session.user.is_admin:
+#        return SideMenuItem('celery', _("Tasks"), url_for('celery.index'), 20, icon='time')
 
 
 @template_hook('global-announcement', priority=-100, markup=False)
