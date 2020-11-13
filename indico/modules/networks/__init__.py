@@ -20,11 +20,10 @@ from indico.web.menu import SideMenuItem
 
 logger = Logger.get('networks')
 
-
-@signals.menu.items.connect_via('admin-sidemenu')
+'''@signals.menu.items.connect_via('admin-sidemenu')
 def _sidemenu_items(sender, **kwargs):
     if session.user.is_admin:
-        yield SideMenuItem('ip_networks', _('IP Networks'), url_for('networks.manage'), section='security')
+        yield SideMenuItem('ip_networks', _('IP Networks'), url_for('networks.manage'), section='security')'''
 
 
 @signals.acl.can_access.connect_via(Attachment)

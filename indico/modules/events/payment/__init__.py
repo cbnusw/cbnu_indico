@@ -39,13 +39,10 @@ payment_event_settings = EventSettingsProxy('payment', {
     'conditions': None
 })
 
-
-@signals.menu.items.connect_via('admin-sidemenu')
+'''@signals.menu.items.connect_via('admin-sidemenu')
 def _extend_admin_menu(sender, **kwargs):
     if session.user.is_admin:
-        return SideMenuItem('payment', _("Payment"), url_for('payment.admin_settings'), section='customization')
-
-
+        return SideMenuItem('payment', _("Payment"), url_for('payment.admin_settings'), section='customization')'''
 @signals.menu.items.connect_via('event-management-sidemenu')
 def _extend_event_management_menu(sender, event, **kwargs):
     if not event.has_feature('payment') or not event.can_manage(session.user, 'registration'):

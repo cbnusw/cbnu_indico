@@ -306,11 +306,10 @@ class WPJinjaMixinPlugin(WPJinjaMixin):
     # Python's MRO works and thus the template prefix would not be cleared.
     template_prefix = ''
 
-
-@signals.menu.items.connect_via('admin-sidemenu')
-def _extend_admin_menu(sender, **kwargs):
-    if session.user.is_admin:
-        return SideMenuItem('plugins', _('Plugins'), url_for('plugins.index'), 80, icon='puzzle')
+#@signals.menu.items.connect_via('admin-sidemenu')
+#def _extend_admin_menu(sender, **kwargs):
+#    if session.user.is_admin:
+#        return SideMenuItem('plugins', _('Plugins'), url_for('plugins.index'), 80, icon='puzzle')
 
 
 plugin_engine = IndicoPluginEngine()

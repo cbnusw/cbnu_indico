@@ -55,8 +55,8 @@ class WPCategory(MathjaxMixin, WPJinjaMixin, WPDecorated):
         return head_content
 
     def _get_breadcrumbs(self):
-        if not self.category or self.category.is_root:
-            return ''
+        #if not self.category or self.category.is_root:
+        #    return ''
         return render_breadcrumbs(category=self.category)
 
 

@@ -29,8 +29,7 @@ cephalopod_settings = SettingsProxy('cephalopod', {
     'uuid': None
 })
 
-
-@signals.menu.items.connect_via('admin-sidemenu')
-def _extend_admin_menu(sender, **kwargs):
-    if session.user.is_admin:
-        return SideMenuItem('cephalopod', _("Community Hub"), url_for('cephalopod.index'), section='integration')
+#@signals.menu.items.connect_via('admin-sidemenu')
+#def _extend_admin_menu(sender, **kwargs):
+#    if session.user.is_admin:
+#        return SideMenuItem('cephalopod', _("Community Hub"), url_for('cephalopod.index'), section='integration')
