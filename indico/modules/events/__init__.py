@@ -196,16 +196,15 @@ def _sidemenu_items(sender, **kwargs):
                            section='customization')'''
 
 
-@signals.menu.sections.connect_via('top-menu')
-def _topmenu_sections(sender, **kwargs):
-    yield TopMenuSection('create-event', _('Create event'), 90)
+#@signals.menu.sections.connect_via('top-menu')
+#def _topmenu_sections(sender, **kwargs):
+#    yield TopMenuSection('create-event', _('Create event'), 90)
 
 
 @signals.menu.items.connect_via('top-menu')
 def _topmenu_items(sender, **kwargs):
-    yield TopMenuItem('create-lecture', _('Create lecture'), 'lecture', 30, section='create-event')
-    yield TopMenuItem('create-meeting', _('Create meeting'), 'meeting', 20, section='create-event')
-    yield TopMenuItem('create-conference', _('Create conference'), 'conference', 10, section='create-event')
+    yield TopMenuItem('create-lecture', _('Create event'), '/event/create/lecture?category_id=0', 90)
+
 
 
 @signals.event.sidemenu.connect
