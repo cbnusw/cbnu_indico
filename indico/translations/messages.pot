@@ -492,19 +492,19 @@ msgstr ""
 
 #: indico/modules/admin/__init__.py:25
 msgid "User Management"
-msgstr ""
+msgstr "사용자 관리"
 
 #: indico/modules/admin/__init__.py:26 indico/modules/events/management/__init__.py:23
 msgid "Customization"
-msgstr ""
+msgstr "커스텀"
 
 #: indico/modules/admin/__init__.py:27
 msgid "Integration"
-msgstr ""
+msgstr "통합"
 
 #: indico/modules/admin/__init__.py:28
 msgid "Homepage"
-msgstr ""
+msgstr "홈페이지"
 
 #: indico/modules/admin/__init__.py:34 indico/modules/admin/views.py:25 indico/modules/api/templates/user_profile.html:98
 #: indico/web/views.py:254 indico/web/views.py:311
