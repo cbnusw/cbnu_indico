@@ -123,9 +123,8 @@ def _send_confirmation(email, salt, endpoint, template, template_args=None, url_
     url = url_for(endpoint, token=token, _external=True, **url_args)
     template_module = get_template_module(template, email=email, url=url, **template_args)
     send_email(make_email(email, template=template_module))
-    #flash(_('We have sent you a verification email. Please check your mailbox within the next hour and open '
-    #        'the link in that email.'))
-    flash(_(url))
+    flash(_('We have sent you a verification email. Please check your mailbox within the next hour and open the link in that email.'))
+    #flash(_(url))
     return redirect(url_for(endpoint, **url_args))
 
 

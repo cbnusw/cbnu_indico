@@ -3130,15 +3130,15 @@ msgstr "Il semble que vous utilisez un URL local pour Indico ou que vous fonctio
 #: indico/modules/events/management/__init__.py:21
 #: indico/modules/events/requests/templates/event_request_details.html:18
 msgid "Services"
-msgstr "Services"
+msgstr "서비스들"
 
 #: indico/modules/core/__init__.py:22 indico/web/templates/footer.html:19
 msgid "Help"
-msgstr "Aide"
+msgstr "도움말"
 
 #: indico/modules/core/__init__.py:27 indico/web/breadcrumbs.py:35
 msgid "Home"
-msgstr "Home"
+msgstr "메인"
 
 #: indico/modules/core/__init__.py:33
 #: indico/modules/core/templates/admin/settings.html:6
@@ -15905,7 +15905,7 @@ msgstr "Rapporter l'erreur"
 #: indico/web/templates/footer.html:13
 #, python-format
 msgid "Powered by %(indico)s"
-msgstr "Fonctionne avec %(indico)s"
+msgstr "Powered by %(indico)s"
 
 #: indico/web/templates/header.html:50
 msgid "A <strong>lecture</strong> is a simple event to announce a talk."
