@@ -27,117 +27,117 @@ msgstr ""
 
 #: indico/modules/attachments/client/js/index.js:154
 msgid "This file no longer exists. Please reload the page."
-msgstr "Ce fichier n'existe plus. Veuillez rafraichir la page."
+msgstr "이 파일은 더 이상 존재하지 않습니다. 페이지를 새로고침 해주세요."
 
 #: indico/modules/attachments/client/js/index.js:160
 msgid "You are not authorized to access this file."
-msgstr "Vous n'êtes pas autorisé.e à accéder à ce fichier."
+msgstr "이 파일에 액세스할 수 없습니다."
 
 #: indico/modules/attachments/client/js/index.js:160
 #: indico/modules/attachments/client/js/index.js:163
 msgid "Access Denied"
-msgstr "Accès refusé"
+msgstr "접근 거부"
 
 #: indico/modules/attachments/client/js/index.js:162
 msgid "This file is protected. You will be redirected to the login page."
-msgstr "L'accès à ce fichier est restreint. Vous allez être redirigé vers la page d'authentification."
+msgstr "이 파일에 대한 액세스가 제한됩니다. 인증 페이지로 이동하게 됩니다."
 
 #: indico/modules/attachments/client/js/index.js:230
 msgid "Manage material"
-msgstr "Gérer les documents"
+msgstr "문서 관리"
 
 #: indico/modules/categories/client/js/calendar.js:24
 msgid "Today"
-msgstr "Aujourd'hui"
+msgstr "오늘"
 
 #: indico/modules/categories/client/js/calendar.js:50
 msgid "Events happening on {0}"
-msgstr "Evénements ayant lieu le {0}"
+msgstr "{0}일의 이벤트"
 
 #: indico/modules/categories/client/js/calendar.js:62
 msgid "{0} long-lasting event not shown"
 msgid_plural "{0} long-lasting events not shown"
-msgstr[0] "{0} événement de longue durée pas montré"
-msgstr[1] "{0} événements de longue durée ne sont pas montrés"
+msgstr[0] "{0} 장기 이벤트 없음"
+msgstr[1] "{0}개의 장기 이벤트가 표시되지 않습니다."
 
 #: indico/modules/categories/client/js/calendar.js:72
 msgid "Long lasting events"
-msgstr "Evénements de longue durée"
+msgstr "장기 행사"
 
 #: indico/modules/categories/client/js/display.js:23
 msgid "empty"
-msgstr "vide"
+msgstr "비어있습니다."
 
 #: indico/modules/categories/client/js/display.js:24
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:298
 msgid "{0} event"
 msgid_plural "{0} events"
-msgstr[0] "{0} événement"
-msgstr[1] "{0} événements"
+msgstr[0] "{0} 이벤트"
+msgstr[1] "{0} 이벤트"
 
 #: indico/modules/categories/client/js/display.js:153
 msgid "Remove from your favourites"
-msgstr "Supprimer de vos favoris"
+msgstr "즐겨찾기 삭제"
 
 #: indico/modules/categories/client/js/display.js:156
 msgid "Add to your favourites"
-msgstr "Ajouter à vos favoris"
+msgstr "즐겨찾기 추가"
 
 #: indico/modules/categories/client/js/display.js:158
 msgid ""
 "This will make events in this category visible on your <a "
 "href=\"{0}\">Dashboard</a>."
-msgstr "Ceci ajoutera les événements de cette catégorie à votre <a href=\"{0}\">tableau de bord</a>."
+msgstr "그러면 이 카테고리의 이벤트가 여러분의 대시보드에 추가됩니다. <a href=\"{0}\">tableau de bord</a>."
 
 #: indico/modules/categories/client/js/management.js:49
 #: indico/modules/events/management/client/js/index.js:280
 msgid "Undo"
-msgstr "Annuler"
+msgstr "취소"
 
 #: indico/modules/categories/client/js/management.js:51
 msgid "The category order has been restored."
-msgstr "L'ordre de la catégorie a été restauré."
+msgstr "카테고리 순서가 복원되었습니다."
 
 #: indico/modules/categories/client/js/management.js:53
 msgid "The category list has been sorted."
-msgstr "La liste des catégories a été triée."
+msgstr "카테고리 목록이 정렬되었습니다.."
 
 #: indico/modules/categories/client/js/management.js:171
 msgid "Delete category"
-msgstr "Supprimer la catégorie"
+msgstr "분류 삭제"
 
 #: indico/modules/categories/client/js/management.js:175
 msgid "This category cannot be deleted because it is not empty."
-msgstr "Cette catégorie ne peut pas être supprimée car elle n'est pas vide."
+msgstr "이 카테고리는 비어 있지 않기 때문에 삭제할 수 없습니다."
 
 #: indico/modules/categories/client/js/management.js:183
 msgid ""
 "At least one selected category cannot be deleted because it is not empty."
-msgstr "Au moins une des catégories sélectionnée ne peut pas être supprimée car elle n'est pas vide."
+msgstr "선택한 카테고리 중 하나 이상이 비어 있지 않기 때문에 삭제할 수 없습니다."
 
 #: indico/modules/categories/client/js/management.js:188
 msgid "Delete the selected category"
 msgid_plural "Delete {0} selected categories"
-msgstr[0] "Supprimer la catégorie sélectionnée"
-msgstr[1] "Supprimer les {0} catégories sélectionnées"
+msgstr[0] "선택한 카테고리 삭제"
+msgstr[1] "선택한 {0}개 카테고리 삭제"
 
 #: indico/modules/categories/client/js/management.js:196
 msgid "Select the categories to delete first."
-msgstr "Commencez par sélectionner les catégories à supprimer."
+msgstr "먼저 삭제할 카테고리를 선택하십시오."
 
 #: indico/modules/categories/client/js/management.js:205
 msgid "Delete categories"
-msgstr "Supprimer les catégories"
+msgstr "분류 삭제"
 
 #: indico/modules/categories/client/js/management.js:225
 msgid "Move the selected category"
 msgid_plural "Move the {0} selected categories"
-msgstr[0] "Transférer la catégorie sélectionnée"
-msgstr[1] "Transférer les {0} catégories sélectionnées"
+msgstr[0] "선택한 카테고리 전송"
+msgstr[1] "선택된 {0}개 카테고리 전송"
 
 #: indico/modules/categories/client/js/management.js:232
 msgid "Select the categories to move first."
-msgstr "Commencez par sélectionner les catégories à transférer."
+msgstr "이전할 카테고리를 선택하여 시작하십시오."
 
 #: indico/modules/categories/client/js/management.js:291
 #: indico/modules/vc/client/js/index.js:54
@@ -145,440 +145,438 @@ msgstr "Commencez par sélectionner les catégories à transférer."
 msgid "*"
 msgid_plural "All {0} events in this category are currently selected."
 msgstr[0] "*"
-msgstr[1] "Tous les {0} événements de cette catégorie sont actuellement sélectionnés."
+msgstr[1] "현재 이 카테고리에 속하는 모든 {0} 이벤트가 선택되었습니다."
 
 #: indico/modules/categories/client/js/management.js:296
 msgid "Only {0} out of {1} events is currently selected."
 msgid_plural "Only {0} out of {1} events are currently selected."
-msgstr[0] "Seuls {0} événement sur {1} est actuellement sélectionné."
-msgstr[1] "Seuls {0} événements sur {1} sont actuellement sélectionnés."
+msgstr[0] "현재 {1}에서 {0}개의 이벤트만 선택되었습니다."
+msgstr[1] "현재 {1}의 {0}개 이벤트만 선택되었습니다."
 
 #: indico/modules/categories/client/js/management.js:334
 #: indico/modules/categories/client/js/management.js:399
 msgid "Move here"
-msgstr "Déplacer ici"
+msgstr "여기로 이동하기"
 
 #: indico/modules/categories/client/js/management.js:335
 msgid "Move category"
 msgid_plural "Move categories"
-msgstr[0] "Transférer la catégorie"
-msgstr[1] "Transférer les catégories"
+msgstr[0] "카테고리 이동"
+msgstr[1] "분류 전송"
 
 #: indico/modules/categories/client/js/management.js:337
 msgid "Select new category parent for the category"
 msgid_plural "Select new category parent for {0} selected categories"
-msgstr[0] "Sélectionnez la nouvelle catégorie mère pour la catégorie sélectionnée"
-msgstr[1] "Sélectionnez la nouvelle catégorie mère pour les {0} catégories sélectionnées"
+msgstr[0] "선택한 카테고리에 대한 상위 카테고리를 선택하십시오."
+msgstr[1] "선택한 {0}개 카테고리에 대한 상위 카테고리 선택"
 
 #: indico/modules/categories/client/js/management.js:354
 msgid "The category is already here"
 msgid_plural "The selected categories are already here"
-msgstr[0] "La catégorie sélectionnée se trouve déjà à cet endroit"
-msgstr[1] "Les catégories sélectionnées se trouvent déjà à cet endroit"
+msgstr[0] "선택된 카테고리는 이미 이 위치에 있습니다."
+msgstr[1] "선택된 카테고리들은 이미 그곳에 있습니다."
 
 #: indico/modules/categories/client/js/management.js:362
 msgid "This is the category you are trying to move"
 msgid_plural "This is one of the categories you are trying to move"
-msgstr[0] "Ceci est la catégorie que vous essayez de transférer"
-msgstr[1] "Ceci est une des catégories que vous essayez de transférer"
+msgstr[0] "이 카레고리는 이동하고 있습니다."
+msgstr[1] "이 카테고리는 옮기고 있는 카테고리 중 하나입니다."
 
 #: indico/modules/categories/client/js/management.js:400
 #: indico/modules/events/management/client/js/index.js:45
 msgid "Move event"
 msgid_plural "Move events"
-msgstr[0] "Transférer l'événement"
-msgstr[1] "Transférer les événements"
+msgstr[0] "이벤트 전송"
+msgstr[1] "이벤트 전송"
 
 #: indico/modules/categories/client/js/management.js:403
 msgid "Select category destination for the event"
 msgid_plural "Select category destination for {0} selected events"
-msgstr[0] "Sélectionnez la nouvelle catégorie mère pour l'événement sélectionné"
-msgstr[1] "Sélectionnez la nouvelle catégorie mère pour les {0} événements sélectionnés"
+msgstr[0] "선택한 이벤트에 대한 새 상위 카테고리를 선택하십시오."
+msgstr[1] "선택된 {0}개의 이벤트에 대한 새 상위 카테고리를 선택하십시오."
 
 #: indico/modules/categories/client/js/management.js:416
 msgid "The event is already here"
 msgid_plural "The selected events are already here"
-msgstr[0] "L'événement sélectionné se trouve déjà à cet endroit"
-msgstr[1] "Les événements sélectionnés se trouvent déjà à cet endroit"
+msgstr[0] "선택된 이벤트는 이미 그 위치에 있습니다."
+msgstr[1] "선택된 이벤트는 이미 그 위치에 있습니다."
 
 #: indico/modules/cephalopod/client/js/index.js:42
 msgid "Unknown error while contacting the Community Hub"
-msgstr "Erreur inconnue en contactant la plateforme communautaire"
+msgstr "알 수 없는 오류가 발생하였습니다."
 
 #: indico/modules/cephalopod/client/js/index.js:44
 msgid "Internal error: Parse error on the reply of the Community Hub."
-msgstr "Erreur interne: Erreur d'analyse de la réponse de la plateforme communautaire."
+msgstr "내부 오류: 커뮤니티 플랫폼 응답 분석 오류"
 
 #: indico/modules/cephalopod/client/js/index.js:46
 msgid "Unable to contact the Community Hub."
-msgstr "Impossible de contacter la plateforme communautaire."
+msgstr "커뮤니티 플랫폼에 접근할 수 없습니다."
 
 #: indico/modules/cephalopod/client/js/index.js:48
 msgid "The connection to the Community Hub timed out."
-msgstr "La connexion avec la plateforme communautaire a expiré."
+msgstr "커뮤니티 플랫폼과 연결이 만료되었습니다."
 
 #: indico/modules/cephalopod/client/js/index.js:53
 msgid "Your server is not registered with the Community Hub."
-msgstr "Votre serveur n'est pas enregistré sur la plateforme communautaire."
+msgstr "당신의 서버는 커뮤니티 플랫폼에 등록되지 않습니다."
 
 #: indico/modules/cephalopod/client/js/index.js:88
 msgid "Disabled"
-msgstr "Désactivé"
+msgstr "비활성화되었습니다."
 
 #: indico/modules/cephalopod/client/js/index.js:89
 msgid "This server is not registered as part of the community."
-msgstr "Ce serveur n'est pas enregistré sur la plateforme communautaire."
+msgstr "이 서버는 커뮤니티 플랫폼에 등록되지 않습니다."
 
 #: indico/modules/cephalopod/client/js/index.js:110
 msgid "Synchronized"
-msgstr "Synchronisé"
+msgstr "동기화"
 
 #: indico/modules/cephalopod/client/js/index.js:111
 msgid "This server is registered as part of the community and is up to date."
-msgstr "Ce serveur est enregistré sur la plateforme communautaire et est à jour."
+msgstr "이 서버는 커뮤니티 플랫폼에 등록되어 있으며 최신입니다."
 
 #: indico/modules/cephalopod/client/js/index.js:120
 msgid "Out of sync"
-msgstr "Non synchronisé"
+msgstr "동기화되지 않음"
 
 #: indico/modules/cephalopod/client/js/index.js:121
 msgid ""
 "Your Indico server is out of sync. Synchronize it with the button on the "
 "right."
-msgstr "Votre serveur Indico n'est pas synchronisé. Veuillez le synchroniser en utilisant le bouton de droite."
+msgstr "Indico 서버가 동기화되지 않았습니다. 오른쪽 버튼을 사용하여 동기화해 주십시오."
 
 #: indico/modules/cephalopod/client/js/index.js:131
 msgid "Error!"
-msgstr "Erreur!"
+msgstr "에러 발생!"
 
 #: indico/modules/cephalopod/client/js/index.js:149
 msgid ""
 "Your Indico server is not synchronized with the Community Hub! You can solve"
 " this <a href=\"{0}\">here</a>."
-msgstr "Votre serveur Indico n'est pas synchronisé avec la plateforme communautaire. Vous pouvez résoudre ce problème <a href=\"{0}\">ici</a>."
+msgstr "Indico 서버가 커뮤니티 플랫폼과 동기화되지 않습니다. 이 문제를 해결할 수 있습니다.<a href=\"{0}\">ici</a>."
 
 #: indico/modules/core/client/js/impersonation.js:35
 msgid "Select user to impersonate"
-msgstr "Sélectionnez l'identité à usurper"
+msgstr "사용자를 선택하세요."
 
 #: indico/modules/designer/client/js/index.js:28
 #: indico/modules/designer/client/js/index.js:685
 msgid ""
 "The back side of the templates that use this one as the back side will be "
 "removed."
-msgstr "Les versos des modèles qui utilisent celui-ci seront supprimés."
+msgstr "이 모델을 사용하는 템플릿의 뒷면은 삭제됩니다."
 
 #: indico/modules/designer/client/js/index.js:31
 #: indico/modules/designer/client/js/index.js:688
 msgid "Disassociate back sides"
-msgstr "Dé-lier les versos"
+msgstr "뒷면과 연결 해제"
 
 #: indico/modules/designer/client/js/index.js:81
 #: indico/modules/designer/client/js/index.js:224
 msgid "Fixed text"
-msgstr "Texte statique"
+msgstr "고정 텍스트"
 
 #: indico/modules/designer/client/js/index.js:475
 #: indico/modules/designer/client/js/index.js:481
 #: indico/web/client/js/jquery/widgets/principalfield.js:136
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1119
 msgid "Warning"
-msgstr "Avertissement"
+msgstr "경고"
 
 #: indico/modules/designer/client/js/index.js:475
 msgid "Please choose a name for the template"
-msgstr "Choisissez un nom pour le modèle"
+msgstr "템플릿 이름을 선택하세요."
 
 #: indico/modules/designer/client/js/index.js:480
 msgid "The template cannot be empty. Add some elements or a background image."
-msgstr "Le modèle ne peut pas être vide. Veuillez ajouter des éléments ou une image de fond."
+msgstr "템플릿은 비어 있을 수 없습니다. 항목 또는 배경 이미지를 추가해 주십시오."
 
 #: indico/modules/designer/client/js/index.js:507
 msgid "Are you sure you want to change the dimensions of this template?"
-msgstr "Voulez-vous vraiment modifier les dimensions de ce modèle?"
+msgstr "이 템플릿의 관점을 정말 바꾸시겠습니까?"
 
 #: indico/modules/designer/client/js/index.js:676
 msgid "This back side template will be removed"
-msgstr "Le modèle du verso sera supprimé"
+msgstr "뒷면 템플릿은 삭제될 것입니다."
 
 #: indico/modules/designer/client/js/index.js:678
 msgid "The back side of this template will be removed"
-msgstr "Le verso de ce modèle sera supprimé"
+msgstr "이 템플릿의 뒷면은 삭제될 것입니다."
 
 #: indico/modules/designer/client/js/index.js:679
 msgid "Disassociate back side"
-msgstr "Dé-lier le verso"
+msgstr "뒷면과 연결 해제"
 
 #: indico/modules/designer/client/js/index.js:683
 msgid "The back side is empty."
-msgstr "La face arrière est vide."
+msgstr "뒷면이 비었습니다."
 
 #: indico/modules/designer/client/js/index.js:793
 msgid "Error"
-msgstr "Erreur"
+msgstr "에러"
 
 #: indico/modules/designer/client/js/index.js:906
 msgid "Choose a file"
-msgstr "Choisissez un fichier"
+msgstr "파일을 선택하세요."
 
 #: indico/modules/events/abstracts/client/js/index.js:74
 #: indico/modules/events/abstracts/client/js/index.js:87
 msgid "Show preview"
-msgstr "Montrer l'aperçu"
+msgstr "미리보기 공개"
 
 #: indico/modules/events/abstracts/client/js/index.js:78
 msgid "Hide preview"
-msgstr "Cacher l'aperçu"
+msgstr "미리보기 숨기기"
 
 #: indico/modules/events/client/js/display.js:168
 msgid "Edit minutes"
-msgstr "Modifier le compte-rendu"
+msgstr "보고서 수정"
 
 #: indico/modules/events/client/js/layout.js:169
 msgid "Menu Entry Settings"
-msgstr "Paramètres de l'entrée du menu"
+msgstr "메뉴 입력 설정"
 
 #: indico/modules/events/client/js/util/static_filters.js:21
 msgid "{0} out of {1} displayed"
-msgstr "{0} sur {1} sont affichés"
+msgstr "{1}개 중 {0}개가 표시됩니다."
 
 #: indico/modules/events/client/js/util/static_filters.js:61
 msgid "There are no entries that match your search criteria."
-msgstr "Aucune entrée ne correspond à vos critères de recherche."
+msgstr "검색 기준에 맞는 항목이 없습니다."
 
 #: indico/modules/events/contributions/client/js/index.js:40
 msgid "Filter sessions"
-msgstr "Filtrer les sessions"
+msgstr "세션 필터링"
 
 #: indico/modules/events/contributions/client/js/index.js:45
 msgid "Assign new session"
-msgstr "Assigner une nouvelle session"
+msgstr "새 세션 할당"
 
 #: indico/modules/events/contributions/client/js/index.js:48
 msgid "Add new session"
-msgstr "Ajouter une nouvelle session"
+msgstr "새 세션 추가"
 
 #: indico/modules/events/contributions/client/js/index.js:75
 msgid "No session"
-msgstr "Aucune session"
+msgstr "세션 없음"
 
 #: indico/modules/events/contributions/client/js/index.js:95
 msgid "Not scheduled"
-msgstr "Non programmé"
+msgstr "스케줄이 없습니다."
 
 #: indico/modules/events/contributions/client/js/index.js:99
 msgid "'{0}' has been unscheduled due to the session change."
-msgstr "'{0}' a été déprogrammée à cause du changement de la session."
+msgstr "세션 변경으로 인해 '{0}'이 비활성화되었습니다."
 
 #: indico/modules/events/contributions/client/js/index.js:101
 msgid "Undo successful! Timetable entry and session have been restored."
-msgstr "Succès de l'annulation! L'entrée de l'ordre du jour et la session ont été rétablies."
+msgstr "취소 성공! 시간표 입력과 세션이 복구되었습니다."
 
 #: indico/modules/events/contributions/client/js/index.js:125
 msgid "Filter tracks"
-msgstr "Filtrer les thématiques"
+msgstr "주제 필터링"
 
 #: indico/modules/events/contributions/client/js/index.js:131
 #: indico/modules/events/contributions/client/js/index.js:134
 msgid "Add new track"
-msgstr "Ajouter une nouvelle thématique"
+msgstr "주제 추가"
 
 #: indico/modules/events/contributions/client/js/index.js:158
 msgid "No track"
-msgstr "Aucune thématique"
+msgstr "주제 없음"
 
 #: indico/modules/events/management/client/js/index.js:41
 msgid ""
 "You are about to move the event to the category \"{0}\". Are you sure you "
 "want to proceed?"
-msgstr "Vous êtes sur le point de déplacer l'événement vers la catégorie \"{0}\". Etes-vous sûr de vouloir continuer?"
+msgstr "이벤트를 \"{0}\" 카테고리로 이동합니다. 계속 진행하시겠습니까?"
 
 #: indico/modules/events/management/client/js/index.js:278
 msgid "Undoing previous operation..."
-msgstr "Annulation en cours de la dernière opération..."
+msgstr "이전 작업의 실패..."
 
 #: indico/modules/events/registration/client/js/index.js:52
 #: indico/modules/events/registration/client/js/registration.js:41
 msgid "Terms and Conditions"
-msgstr "Conditions générales"
+msgstr "용어와 조건들"
 
 #: indico/modules/events/registration/client/js/reglists.js:29
 msgid "Email Preview"
-msgstr "Aperçu du courriel"
+msgstr "이메일 개요"
 
 #: indico/modules/events/registration/client/js/reglists.js:46
 msgid "Do you really want to delete the selected registration?"
 msgid_plural "Do you really want to delete the {0} selected registrations?"
-msgstr[0] "Voulez-vous vraiment supprimer l'inscription sélectionnée?"
-msgstr[1] "Voulez-vous vraiment supprimer les {0} inscriptions sélectionnées?"
+msgstr[0] "선택된 등록을 삭제하시겠습니까?"
+msgstr[1] "선택된 {0}개의 등록을 삭제하시겠습니까?"
 
 #: indico/modules/events/registration/client/js/form/field.js:144
 msgid "New Field"
-msgstr "Nouveau champ"
+msgstr "새 필드"
 
 #: indico/modules/events/registration/client/js/form/field.js:144
 msgid "Edit Field"
-msgstr "Modifier le champ"
+msgstr "필드 수정"
 
 #: indico/modules/events/registration/client/js/form/field.js:147
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:876
 msgid "Add"
-msgstr "Ajouter"
+msgstr "추가"
 
 #: indico/modules/events/registration/client/js/form/field.js:147
 msgid "Update"
-msgstr "Modifier"
+msgstr "수정"
 
 #: indico/modules/events/registration/client/js/form/field.js:181
 msgid "There is already a registration with this email address."
-msgstr "Il existe déjà une inscription avec cette adresse électronique."
+msgstr "이미 이 이메일 주소로 등록되어 있습니다."
 
 #: indico/modules/events/registration/client/js/form/field.js:183
 msgid "The user associated with this email address is already registered."
-msgstr "L'utilisateur associé à cette adresse électronique est déjà enregistré."
+msgstr "이 이메일 주소로 연결된 사용자가 이미 존재합니다."
 
 #: indico/modules/events/registration/client/js/form/field.js:185
 msgid "There is no Indico user associated with this email address."
-msgstr "Il n'y a pas d'utilisateur Indico associé à cette adresse électronique."
+msgstr "이 이메일로 등록된 인디코 사용자가 없습니다."
 
 #: indico/modules/events/registration/client/js/form/field.js:190
 msgid "This email address is not associated with your Indico account."
-msgstr "Cette adresse électronique n'est pas associée à votre compte Indico."
+msgstr "이 이메일 주소는 Indico 계정에 등록되어 있지 않습니다."
 
 #: indico/modules/events/registration/client/js/form/field.js:193
 msgid ""
 "The registration will be re-associated to a different user "
 "(<strong>{0}</strong>)."
-msgstr "L'inscription sera ré-associée à un utilisateur différent (<strong>{0}</strong>)."
+msgstr "등록은 다른 사용자와 다시 연계될 것입니다. (<strong>{0}</strong>)."
 
 #: indico/modules/events/registration/client/js/form/field.js:199
 msgid ""
 "The registration will be disassociated from the current user "
 "(<strong>{0}</strong>)."
-msgstr "L'inscription sera dissociée de l'utilisateur courant (<strong>{0}</strong>)."
+msgstr "등록은 현재 사용자와 분리됩니다. (<strong>{0}</strong>)."
 
 #: indico/modules/events/registration/client/js/form/field.js:204
 msgid "This email address is invalid."
-msgstr "Cette adresse électronique est invalide."
+msgstr "이메일 주소가 유효하지 않습니다."
 
 #: indico/modules/events/registration/client/js/form/field.js:206
 msgid "The registration will not be associated with any Indico account."
-msgstr "L'inscription ne sera pas associée avec un compte Indico."
+msgstr "등록은 인디코 계정과 연계되지 않습니다."
 
 #: indico/modules/events/registration/client/js/form/field.js:208
 msgid "The registration will be associated with your Indico account."
-msgstr "L'inscription sera associée à votre compte Indico."
+msgstr "등록은 당신의 인디코 계정과 연계됩니다."
 
 #: indico/modules/events/registration/client/js/form/field.js:211
 msgid ""
 "The registration will remain associated with the Indico account "
 "<strong>{0}</strong>."
-msgstr "L'inscription continuera à être associée au compte Indico <strong>{0}</strong>."
+msgstr "등록은 인디코 계정과 계속 연계됩니다. <strong>{0}</strong>."
 
 #: indico/modules/events/registration/client/js/form/field.js:217
-msgid ""
-"The registration will be associated with the Indico account "
-"<strong>{0}</strong>."
-msgstr "L'inscription sera associée au compte Indico <strong>{0}</strong>."
+msgid "The registration will be associated with the Indico account <strong>{0}</strong>."
+msgstr "해당 계정이 인디코 계정<strong>{0}</strong>과 연동될 예정입니다."
 
 #: indico/modules/events/registration/client/js/form/field.js:238
 msgid "Checking email address..."
-msgstr "Vérification de l'adresse électronique..."
+msgstr "Email 주소 확인"
 
 #: indico/modules/events/registration/client/js/form/field.js:394
 msgid "Checkbox"
-msgstr "Case à cocher"
+msgstr "체크박스"
 
 #: indico/modules/events/registration/client/js/form/field.js:417
 msgid "Country"
-msgstr "Pays"
+msgstr "국가"
 
 #: indico/modules/events/registration/client/js/form/field.js:449
 msgid "Date"
-msgstr "Date"
+msgstr "날짜"
 
 #: indico/modules/events/registration/client/js/form/field.js:465
 msgid "File"
-msgstr "Fichier "
+msgstr "파일 "
 
 #: indico/modules/events/registration/client/js/form/field.js:481
 msgid "Free Text"
-msgstr "Texte libre"
+msgstr "자유 텍스트"
 
 #: indico/modules/events/registration/client/js/form/field.js:497
 msgid "Number"
-msgstr "Numéro"
+msgstr "번호"
 
 #: indico/modules/events/registration/client/js/form/field.js:636
 msgid "Choice"
-msgstr "Choix"
+msgstr "선택"
 
 #: indico/modules/events/registration/client/js/form/field.js:696
 #: indico/modules/events/registration/client/js/form/field.js:1151
 msgid "Caption"
-msgstr "Légende"
+msgstr "캡션"
 
 #: indico/modules/events/registration/client/js/form/field.js:697
 #: indico/modules/events/registration/client/js/form/field.js:1074
 #: indico/modules/events/registration/client/js/form/field.js:1152
 msgid "Billable"
-msgstr "Facturable"
+msgstr "계산 가능"
 
 #: indico/modules/events/registration/client/js/form/field.js:698
 #: indico/modules/events/registration/client/js/form/field.js:1075
 #: indico/modules/events/registration/client/js/form/field.js:1153
 msgid "Price"
-msgstr "Prix"
+msgstr "가격"
 
 #: indico/modules/events/registration/client/js/form/field.js:699
 #: indico/modules/events/registration/client/js/form/field.js:1076
 #: indico/modules/events/registration/client/js/form/field.js:1154
 msgid "Places limit"
-msgstr "Nombre de places maximum"
+msgstr "최대 수강생 수"
 
 #: indico/modules/events/registration/client/js/form/field.js:700
 #: indico/modules/events/registration/client/js/form/field.js:1155
 msgid "Max. extra slots"
-msgstr "Nombre de places supplémentaires max"
+msgstr "최대 추가 수강생 수"
 
 #: indico/modules/events/registration/client/js/form/field.js:701
 #: indico/modules/events/registration/client/js/form/field.js:1156
 msgid "Extra slots pay"
-msgstr "Paiement pour places supplémentaires"
+msgstr "슬롯 추가 비용 지불"
 
 #: indico/modules/events/registration/client/js/form/field.js:702
 #: indico/modules/events/registration/client/js/form/field.js:1077
 #: indico/modules/events/registration/client/js/form/field.js:1157
 msgid "Enabled"
-msgstr "Activé"
+msgstr "활성화됨"
 
 #: indico/modules/events/registration/client/js/form/field.js:799
 msgid "Phone"
-msgstr "Téléphone"
+msgstr "전화"
 
 #: indico/modules/events/registration/client/js/form/field.js:813
 msgid "Text"
-msgstr "Texte"
+msgstr "텍스트"
 
 #: indico/modules/events/registration/client/js/form/field.js:830
 msgid "Textarea"
-msgstr "Zone de texte"
+msgstr "텍스트 영역"
 
 #: indico/modules/events/registration/client/js/form/field.js:846
 msgid "Yes/No"
-msgstr "Oui/Non"
+msgstr "예/아니오"
 
 #: indico/modules/events/registration/client/js/form/field.js:849
 msgid "yes"
-msgstr "oui"
+msgstr "예"
 
 #: indico/modules/events/registration/client/js/form/field.js:849
 msgid "no"
-msgstr "non"
+msgstr "아니오"
 
 #: indico/modules/events/registration/client/js/form/field.js:865
 msgid "Email address"
-msgstr "Adresse électronique"
+msgstr "이메일 주소"
 
 #: indico/modules/events/registration/client/js/form/field.js:988
 msgid "Title of the \"None\" option"
@@ -586,7 +584,7 @@ msgstr "Titre pour l'option \"Aucun\""
 
 #: indico/modules/events/registration/client/js/form/field.js:995
 msgid "Accommodation"
-msgstr "Hébergement"
+msgstr "수용"
 
 #: indico/modules/events/registration/client/js/form/field.js:1073
 msgid "Accommodation option"
@@ -594,268 +592,268 @@ msgstr "Option d'hébergement"
 
 #: indico/modules/events/registration/client/js/form/field.js:1140
 msgid "Multi choice"
-msgstr "Choix multiple"
+msgstr "다중 선택"
 
 #: indico/modules/events/registration/client/js/form/sectiontoolbar.js:44
 msgid "Add new field"
-msgstr "Ajouter un nouveau champ"
+msgstr "필드 추가"
 
 #: indico/modules/events/sessions/client/js/index.js:118
 msgid "Filter types"
-msgstr "Filtrer les types"
+msgstr "타입 필터링"
 
 #: indico/modules/events/sessions/client/js/index.js:123
 #: indico/modules/events/sessions/client/js/index.js:126
 msgid "Add new type"
-msgstr "Ajouter un nouveau type"
+msgstr "타입 추가"
 
 #: indico/modules/events/sessions/client/js/index.js:150
 msgid "No type"
-msgstr "Aucun type"
+msgstr "타입 없음"
 
 #: indico/modules/vc/client/js/index.js:82
 msgid ""
 "This room has been deleted and cannot be used. \n"
 "                         You can detach it from the event, however."
-msgstr "Cette salle a été supprimée et ne peut pas être utilisée.\nToutefois vous pouvez la détacher de cet événement."
+msgstr "이 방은 삭제되었고 사용할 수 없습니다.\nToutefois vous pouvez la détacher de cet événement."
 
 #: indico/modules/vc/client/js/index.js:112
 msgid "Click to toggle collapse status"
-msgstr "Cliquer pour déplier/replier"
+msgstr "클릭해서 접기/펴기"
 
 #: indico/web/client/js/jquery/extensions/clipboard.js:49
 msgid "Copied to clipboard"
-msgstr "Copié dans le presse-papier"
+msgstr "클립보드에 복사"
 
 #: indico/web/client/js/jquery/extensions/clipboard.js:57
 msgid "Press {0} to copy"
-msgstr "Appuyer sur {0} pour copier"
+msgstr "{0}을(를) 눌러 복사합니다."
 
 #: indico/web/client/js/jquery/extensions/global.js:244
 msgid "Create new lecture"
-msgstr "Créer une nouvelle présentation"
+msgstr "강의 추가"
 
 #: indico/web/client/js/jquery/extensions/global.js:245
 msgid "Create new meeting"
-msgstr "Créer une nouvelle réunion"
+msgstr "미팅 추가"
 
 #: indico/web/client/js/jquery/extensions/global.js:246
 msgid "Create new conference"
-msgstr "Créer une nouvelle conférence"
+msgstr "회의 추가"
 
 #: indico/web/client/js/jquery/utils/ajaxdialog.js:79
 msgid ""
 "You have unsaved changes. Do you really want to close the dialog without "
 "saving?"
-msgstr "Certains changements ne sont pas sauvegardés. Voulez-vous vraiment fermer ce dialogue sans sauvegarder?"
+msgstr "일부 변경 사항은 저장되지 않습니다. 정말로 저장하지 않고 이 대화를 종료하시겠습니까?"
 
 #: indico/web/client/js/jquery/utils/ajaxdialog.js:148
 #: indico/web/client/js/jquery/utils/ajaxform.js:134
 #: indico/web/client/js/jquery/utils/ajaxform.js:281
 msgid "Unsaved changes"
-msgstr "Modifications non sauvées"
+msgstr "수정사항이 저장되지 않았습니다."
 
 #: indico/web/client/js/jquery/utils/ajaxdialog.js:180
 #: indico/web/client/js/jquery/utils/misc.js:84
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Util.js:35
 #: indico/web/client/js/legacy/libs/timetable/Management.js:247
 msgid "Close"
-msgstr "Fermer "
+msgstr "닫기 "
 
 #: indico/web/client/js/jquery/utils/ajaxform.js:264
 msgid "You have unsaved changes that will be lost."
-msgstr "Vous avez des modifications non enregistrées qui seront perdues."
+msgstr "저장되지 않은 변경 사항이 있습니다."
 
 #: indico/web/client/js/jquery/utils/declarative.js:248
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:708
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1345
 msgid "Confirm action"
-msgstr "Confirmer l'action"
+msgstr "행동 확인"
 
 #: indico/web/client/js/jquery/utils/declarative.js:347
 msgid "Direct link to this item"
-msgstr "Lien direct vers cet élément"
+msgstr "이 항목으로 이어지는 링크"
 
 #: indico/web/client/js/jquery/utils/defaults.js:19
 msgid "Next"
-msgstr "Suivant"
+msgstr "다음"
 
 #: indico/web/client/js/jquery/utils/defaults.js:20
 msgid "Previous"
-msgstr "Précédent"
+msgstr "이전의"
 
 #: indico/web/client/js/jquery/utils/defaults.js:31
 msgid "Choose the start date"
-msgstr "Choisir la date de début"
+msgstr "시작 날짜를 선택하세요."
 
 #: indico/web/client/js/jquery/utils/defaults.js:31
 msgid "Choose the end date"
-msgstr "Choisir la date de fin"
+msgstr "종료 날짜를 선택하세요."
 
 #: indico/web/client/js/jquery/utils/errors.js:31
 #: indico/web/client/js/legacy/libs/presentation/Data/Remote.js:117
 #: indico/web/client/js/utils/axios.js:46
 msgid "Something went wrong"
-msgstr "Une erreur s'est produite"
+msgstr "한 가지 오류가 발생했습니다."
 
 #: indico/web/client/js/jquery/utils/forms.js:15
 msgid "The passwords do not match."
-msgstr "Les mots de passe ne correspondent pas."
+msgstr "비밀번호가 일치하지 않습니다."
 
 #: indico/web/client/js/jquery/utils/forms.js:66
 msgid "Field must be at least {0} character long."
 msgid_plural "Field must be at least {0} characters long."
-msgstr[0] "Le champ doit comprendre au moins {0} caractère."
-msgstr[1] "Le champ doit comprendre au moins {0} caractères."
+msgstr[0] "필드는 최소 {0}자 이상이어야 합니다."
+msgstr[1] "필드는 최소 {0}자 이상이어야 합니다."
 
 #: indico/web/client/js/jquery/utils/forms.js:74
 msgid "Field cannot be longer than {0} character."
 msgid_plural "Field cannot be longer than {0} characters."
-msgstr[0] "Le champ ne peut pas contenir plus de {0} caractère."
-msgstr[1] "Le champ ne peut pas contenir plus de {0} caractères."
+msgstr[0] "필드는 {0}자를 초과할 수 없습니다."
+msgstr[1] "필드는 {0}자를 초과할 수 없습니다."
 
 #: indico/web/client/js/jquery/utils/forms.js:82
 msgid "Field must be between {0} and {1} characters long."
-msgstr "Le champ doit comprendre entre {0} et {1} caractères."
+msgstr "필드는 {0}과 {1}자 사이여야 합니다."
 
 #: indico/web/client/js/jquery/utils/forms.js:88
 msgid "Field must contain at least {0} word."
 msgid_plural "Field must contain at least {0} words."
-msgstr[0] "Le champ doit contenir au moins {0} mot."
-msgstr[1] "Le champ doit contenir au moins {0} mots."
+msgstr[0] "필드는 최소 {0}개의 단어를 포함해야 합니다."
+msgstr[1] "필드는 최소 {0}개의 단어를 포함해야 합니다."
 
 #: indico/web/client/js/jquery/utils/forms.js:96
 msgid "Field cannot contain more than {0} word."
 msgid_plural "Field cannot contain more than {0} words."
-msgstr[0] "Le champ ne peut pas contenir plus de {0} mot."
-msgstr[1] "Le champ ne peut pas contenir plus de {0} mots."
+msgstr[0] "필드는 {0}개 이상의 단어를 포함할 수 없습니다."
+msgstr[1] "필드는 {0}개 이상의 단어를 포함할 수 없습니다."
 
 #: indico/web/client/js/jquery/utils/forms.js:104
 msgid "Field must contain between {0} and {1} words."
-msgstr "Le champ doit contenir entre {0} et {1} mots."
+msgstr "필드는 {0}에서 {1}개의 단어를 포함해야 합니다."
 
 #: indico/web/client/js/jquery/utils/forms.js:122
 msgid "Save now"
-msgstr "Sauver maintenant"
+msgstr "지금 저장"
 
 #: indico/web/client/js/jquery/utils/forms.js:123
 #: indico/web/client/js/jquery/utils/pagedown_mathjax.js:293
 msgid "Saving..."
-msgstr "Sauvegarde..."
+msgstr "저장중..."
 
 #: indico/web/client/js/jquery/utils/forms.js:124
 msgid "Do not forget to save your changes!"
-msgstr "N'oubliez pas de sauver vos modifications!"
+msgstr "수정사항을 저장하는 것을 잊지 마십시오!"
 
 #: indico/web/client/js/jquery/utils/forms.js:394
 msgid "Only {0} out of {1} rows is currently selected"
 msgid_plural "Only {0} out of {1} rows are currently selected."
-msgstr[0] "Seuls {0} événement sur {1} est actuellement sélectionné."
-msgstr[1] "Seuls {0} événements sur {1} sont actuellement sélectionnés."
+msgstr[0] "현재 {1}에서 {0}개의 이벤트만 선택되었습니다."
+msgstr[1] "현재 {1}의 {0}개 이벤트만 선택되었습니다."
 
 #: indico/web/client/js/jquery/utils/forms.js:433
 msgid "Select only the current page."
-msgstr "Choisir seulement la page actuelle."
+msgstr "현재 페이지만 선택하십시오."
 
 #: indico/web/client/js/jquery/utils/forms.js:447
 msgid "Click here to select them all."
-msgstr "Cliquer ici pour tout sélectionner"
+msgstr "전체선택 하시려면 여기를 클릭하십시오."
 
 #: indico/web/client/js/jquery/utils/misc.js:16
 #: indico/web/client/js/jquery/utils/misc.js:30
 msgid "Please confirm"
-msgstr "Veuillez confirmer"
+msgstr "확인해주십시오."
 
 #: indico/web/client/js/jquery/utils/misc.js:98
 msgid "Executing operation..."
-msgstr "Exécution de l'opération..."
+msgstr "작업 수행중..."
 
 #: indico/web/client/js/jquery/utils/misc.js:100
 msgid "Operation done!"
-msgstr "Opération effectuée!"
+msgstr "작업 완료!"
 
 #: indico/web/client/js/jquery/utils/misc.js:165
 msgid "Operation failed!"
-msgstr "L'opération a échoué!"
+msgstr "작업 실패!"
 
 #: indico/web/client/js/jquery/utils/pagedown_mathjax.js:298
 msgid "Saved"
-msgstr "Sauvé"
+msgstr "저장됨"
 
 #: indico/web/client/js/jquery/utils/pagedown_mathjax.js:331
 #: indico/web/client/js/jquery/widgets/jinja/multiple_items_widget.js:39
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1115
 msgid "Save"
-msgstr "Sauver"
+msgstr "저장"
 
 #: indico/web/client/js/jquery/widgets/ajaxqbubble.js:20
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Base.js:63
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:782
 msgid "Loading..."
-msgstr "Chargement en cours..."
+msgstr "로딩중..."
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:19
 msgid "Select"
-msgstr "Sélectionner"
+msgstr "선택"
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:23
 msgid "This category doesn't contain any subcategory"
-msgstr "Cette catégorie ne contient aucune sous-catégorie"
+msgstr "이 카테고리에는 하위 카테고리가 없습니다."
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:27
 msgid "Select a category"
-msgstr "Choisir une catégorie"
+msgstr "카테고리를 선택하세요."
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:34
 msgid "Not possible for categories containing subcategories"
-msgstr "Impossible pour les catégories contenant des sous-catégories"
+msgstr "하위 카레고리를 포함하는 것은 불가능합니다."
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:38
 msgid "Not possible for categories containing events"
-msgstr "Impossible pour les catégories contenant des événements"
+msgstr "이벤트를 포함하는 카테고리에는 불가능합니다."
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:42
 msgid "Not possible for categories where you cannot create events"
-msgstr "Impossible pour les catégories où vous ne pouvez pas créer d'événements"
+msgstr "이벤트를 만들 수 없는 카테고리에서는 불가능합니다."
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:48
-msgid "Not possible for categories descending from category \"{0}\""
-msgstr "Impossible pour les catégories descendant de la catégorie \"{0}\""
+msgid "Not possible for categories descending from cxkategory \"{0}\""
+msgstr "카테고리 하급에는 불가능합니다. \"{0}\""
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:52
 msgid "Not possible for this category"
-msgstr "Impossible pour cette catégorie"
+msgstr "이 카테고리에는 불가능합니다."
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:141
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:217
 msgid "Search"
-msgstr "Rechercher"
+msgstr "검색"
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:194
 msgid "in"
-msgstr "dans"
+msgstr "안에서"
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:198
 msgid "Go to: {0}"
-msgstr "Aller à: {0}"
+msgstr "{0}(으)로 갑니다"
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:235
 msgid "This category is protected"
-msgstr "Cette catégorie est protégée"
+msgstr "이 카테고리는 보호됩니다."
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:283
 msgid "Go to parent: {0}"
-msgstr "Aller au parent: {0}"
+msgstr "상위 카레고리로 이동: {0}"
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:294
 msgid "{0} category"
 msgid_plural "{0} categories"
-msgstr[0] "{0} catégorie"
-msgstr[1] "{0} catégories"
+msgstr[0] "{0} 카테고리"
+msgstr[1] "{0} 카테고리"
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:335
 msgid "You can only <a class=\"js-action\" data-category-id=\"{0}\">{1}</a> this one."
-msgstr "Vous pouvez uniquement <a class=\"js-action\" data-category-id=\"{0}\">{1}</a> celle-ci."
+msgstr "귀하는 이것만을 <a class=\"js-action\" data-category-id=\"{0}\">{1}</a> 할 수 있습니다."
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:340
 msgid ""
@@ -872,7 +870,7 @@ msgstr "Vous pouvez <a class=\"js-navigate-up\" data-parent-id=\"{2}\">remonter 
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:363
 msgid "Your search doesn't match any category"
-msgstr "Votre recherche ne retourne aucune catégorie"
+msgstr "귀하의 검색과 일치하는 카테고리가 없습니다."
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:368
 msgid ""
@@ -882,11 +880,11 @@ msgstr "Vous pouvez <a class=\"js-search\">modifier</a> ou <a class=\"js-clear-s
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:444
 msgid "In favourite categories"
-msgstr "Dans vos catégories favorites"
+msgstr "즐겨찾는 카테고리"
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:451
 msgid "Search result"
-msgstr "Résultat de la recherche"
+msgstr "검색 결과"
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:472
 msgid "Displaying {0} out of {1} results."
@@ -894,27 +892,27 @@ msgstr "Affichage de {0} résultats sur {1}."
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:473
 msgid "There are no results."
-msgstr "Aucun résultat."
+msgstr "결과가 없습니다."
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:477
 msgid "Make the search more specific for more accurate results"
-msgstr "Entrer des critères de recherche plus spécifiques pour des résultats plus précis"
+msgstr "정확한 결과를 얻기 위해 구체적인 검색 기준을 입력하세요."
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:482
 msgid "Clear search"
-msgstr "Vider la recherche"
+msgstr "검색기록 초기화"
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js:706
 msgid "You selected category <em>{0}</em>. Are you sure you want to proceed?"
-msgstr "Vous avez sélectionné la catégorie <em>{0}</em>. Etes-vous sûr de vouloir continuer?"
+msgstr "귀하는 <em>{0}</em> 카테고리를 선택하셨습니다. 계속 진행하시겠습니까?"
 
 #: indico/web/client/js/jquery/widgets/itempicker.js:21
 msgid "Type to filter..."
-msgstr "Tapez du texte pour filtrer..."
+msgstr "검색 필터 설정하기..."
 
 #: indico/web/client/js/jquery/widgets/misc.js:89
 msgid "You can copy the URL below using CTRL + C (&#8984; + C on OSX):"
-msgstr "Vous pouvez copier l'URL ci-dessous en utilisant CTRL + C (&#8984; + C sur OSX):"
+msgstr "아래 URL을 복사하세요. CTRL + C (&#8984; + C sur OSX):"
 
 #: indico/web/client/js/jquery/widgets/multitextfield.js:254
 msgid "Type to add {0}"
@@ -924,65 +922,65 @@ msgstr "Tapez pour ajouter {0}"
 #: indico/web/client/js/jquery/widgets/multitextfield.js:278
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:1654
 msgid "Delete"
-msgstr "Supprimer"
+msgstr "삭제"
 
 #: indico/web/client/js/jquery/widgets/multitextfield.js:353
 msgid "Empty values are not allowed."
-msgstr "Les champs vides ne sont pas acceptés."
+msgstr "빈 값은 허용되지 않습니다.."
 
 #: indico/web/client/js/jquery/widgets/principalfield.js:106
 msgid "Choose person"
-msgstr "Choisissez une personne"
+msgstr "학생을 선택하세요."
 
 #: indico/web/client/js/jquery/widgets/principalfield.js:135
 msgid "There is already another person with this email address."
-msgstr "Il existe déjà une personne avec cette adresse électronique"
+msgstr "이미 이 이메일을 사용하는 사람이 있습니다."
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:180
 #: indico/web/client/js/jquery/widgets/principalfield.js:143
 msgid "Edit information"
-msgstr "Modifier l'information"
+msgstr "정보 수정"
 
 #: indico/web/client/js/jquery/widgets/principalfield.js:162
 msgid "Enter person"
-msgstr "Choisissez une personne"
+msgstr "학생을 선택하세요."
 
 #: indico/web/client/js/jquery/widgets/rulelistwidget.js:60
 msgid "Select an option"
-msgstr "Sélectionnez une option"
+msgstr "옵션 선택"
 
 #: indico/web/client/js/jquery/widgets/timerange.js:13
 msgid "Time"
-msgstr "Horaire"
+msgstr "시간"
 
 #: indico/web/client/js/jquery/widgets/jinja/location_widget.js:67
 msgid "Using default location from: {0} ({1})"
-msgstr "Utilisation du site par défaut de: {0} ({1})"
+msgstr "기본 사이트 사용: {0} ({1})"
 
 #: indico/web/client/js/jquery/widgets/jinja/location_widget.js:69
 msgid "Using custom location"
-msgstr "Utilisation d'un site personnalisé"
+msgstr "사용자 지정 사이트 사용"
 
 #: indico/web/client/js/jquery/widgets/jinja/location_widget.js:165
 msgid "Just use \"{0}\""
-msgstr "Utiliser simplement \"{0}\""
+msgstr "사용하세요. \"{0}\""
 
 #: indico/web/client/js/jquery/widgets/jinja/markdown_widget.js:29
 msgid "<strong>1</strong> char left"
 msgid_plural "<strong>{0}</strong> chars left"
-msgstr[0] "<strong>{0}</strong> caractère restant"
-msgstr[1] "<strong>{0}</strong> caractères restants"
+msgstr[0] "<strong>{0}</strong> 나머지 문자"
+msgstr[1] "<strong>{0}</strong> 나머지 문자"
 
 #: indico/web/client/js/jquery/widgets/jinja/markdown_widget.js:39
 msgid "<strong>1</strong> word left"
 msgid_plural "<strong>{0}</strong> words left"
-msgstr[0] "<strong>{0}</strong> mot restant"
-msgstr[1] "<strong>{0}</strong> mots restants"
+msgstr[0] "<strong>{0}</strong> 남은 단어"
+msgstr[1] "<strong>{0}</strong> 남은 단어"
 
 #: indico/web/client/js/jquery/widgets/jinja/multiple_items_widget.js:44
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:1586
 msgid "Edit"
-msgstr "Modifier"
+msgstr "편집"
 
 #: indico/web/client/js/jquery/widgets/jinja/multiple_items_widget.js:49
 #: indico/web/client/js/legacy/angular/directives.js:68
@@ -991,44 +989,44 @@ msgstr "Modifier"
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1140
 #: indico/web/client/js/legacy/libs/timetable/Management.js:672
 msgid "Cancel"
-msgstr "Annuler"
+msgstr "취소"
 
 #: indico/web/client/js/jquery/widgets/jinja/multiple_items_widget.js:296
 msgid "Must be between {0} and {1}"
-msgstr "Doit être compris entre {0} et {1}"
+msgstr "반드시 {0}과 {1} 사이로 하셔야 합니다."
 
 #: indico/web/client/js/jquery/widgets/jinja/multiple_items_widget.js:298
 msgid "Must be above {0}"
-msgstr "Doit être supèrieur à {0}"
+msgstr "{0}이상이어야 합니다"
 
 #: indico/web/client/js/jquery/widgets/jinja/multiple_items_widget.js:300
 msgid "Must be below {0}"
-msgstr "Doit être inférieur à {0}"
+msgstr "{0}이하여야 합니다"
 
 #: indico/web/client/js/jquery/widgets/jinja/multiple_items_widget.js:319
 msgid "Please fill in the required fields."
-msgstr "Veuillez renseigner les champs obligatoires."
+msgstr "필수 영역을 입력하십시오."
 
 #: indico/web/client/js/jquery/widgets/jinja/permissions_widget.js:145
 msgid "IP networks cannot have management permissions"
-msgstr "Les réseaux IP n'ont pas de droit d'administration"
+msgstr "IP 네트워크는 관리 권한이 없습니다."
 
 #: indico/web/client/js/jquery/widgets/jinja/permissions_widget.js:152
 msgid "Assign Permissions"
-msgstr "Assigner les permissions"
+msgstr "권한 할당"
 
 #: indico/web/client/js/jquery/widgets/jinja/permissions_widget.js:169
 msgid "Delete entry '{0}'"
-msgstr "Effacer l'entrée '{0}'"
+msgstr "삭제 '{0}'"
 
 #: indico/web/client/js/jquery/widgets/jinja/permissions_widget.js:170
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1344
 msgid "Are you sure you want to remove yourself from the list?"
-msgstr "Êtes-vous sûr de vouloir vous retirer de la liste ?"
+msgstr "당신을 명단에서 제외시키겠습니까?"
 
 #: indico/web/client/js/jquery/widgets/jinja/permissions_widget.js:209
 msgid "All IP Networks were added"
-msgstr "Tous les réseaux IP ont été ajoutés"
+msgstr "모든 IP 네트워크가 추가되었습니다."
 
 #: indico/web/client/js/jquery/widgets/jinja/permissions_widget.js:240
 msgid "This entry was already added"
@@ -1036,31 +1034,31 @@ msgstr "Cette entrée existait déjà"
 
 #: indico/web/client/js/jquery/widgets/jinja/permissions_widget.js:273
 msgid "Anonymous"
-msgstr "Anonyme"
+msgstr "익명"
 
 #: indico/web/client/js/jquery/widgets/jinja/permissions_widget.js:280
 msgid "Category Managers"
-msgstr "Administrateurs de catégorie"
+msgstr "카테고리 관리자"
 
 #: indico/web/client/js/jquery/widgets/jinja/permissions_widget.js:281
 msgid "Event Managers"
-msgstr "Administrateurs de l'événement"
+msgstr "이벤트 관리자"
 
 #: indico/web/client/js/jquery/widgets/jinja/permissions_widget.js:338
 msgid "Select a user or group to add"
-msgstr "Veuillez choisir un utilisateur ou un groupe à ajouter"
+msgstr "추가할 사용자나 그룹을 선택하십시오."
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:166
 msgid "Speaker"
-msgstr "Orateur"
+msgstr "강사"
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:177
 msgid "Remove person"
-msgstr "Enlever la personne"
+msgstr "학생 삭제"
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:183
 msgid "Configure roles"
-msgstr "Configurer les roles"
+msgstr "역할 구성"
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:198
 msgid "Submitter"
@@ -1068,27 +1066,27 @@ msgstr "Déposant"
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:245
 msgid "or"
-msgstr "ou"
+msgstr "이나"
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:266
 msgid "Move to authors"
-msgstr "Déplacer vers les auteurs"
+msgstr "저자로 이동"
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:272
 msgid "Move to co-authors"
-msgstr "Déplacer vers les co-auteurs"
+msgstr "공동 저자로 이동"
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:279
 msgid "Move to others"
-msgstr "Déplacer vers d'autres"
+msgstr "다른 곳으로 이동하기"
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:285
 msgid "Not a speaker anymore"
-msgstr "N'est plus un orateur"
+msgstr "더 이상 강사가 아닙니다."
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:286
 msgid "Make a speaker"
-msgstr "Transformer en orateur"
+msgstr "강사로 등록하기"
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:297
 msgid "People in the 'Others' section <strong>must</strong> be speakers."
@@ -1096,28 +1094,28 @@ msgstr "Les personnes dans la section \"Autres\" <strong>doivent</strong> être 
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:317
 msgid "Revoke submission rights"
-msgstr "Révoquer les droits de dépôt"
+msgstr "출원권 철회"
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:318
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:986
 msgid "Grant submission rights"
-msgstr "Donner les droits de dépôt"
+msgstr "제출 권한 부여"
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:383
 msgid "Custom sorting has been applied. Click to restore alphabetical order."
-msgstr "Le tri personnalisé a été appliqué. Cliquez pour restaurer le tri alphabétique."
+msgstr "사용자 맞춤 정렬이 적용되었습니다. 알파벳 정렬로 바꾸려면 눌러주세요"
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:385
 msgid "Alphabetical sorting is ON. Click to turn it off."
-msgstr "Le tri alphabétique est activé. Cliquez pour le désactiver."
+msgstr "알파벳 정렬상태입니다. 알파벳 정렬을 끄려면 클릭하세요."
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:430
 msgid "You must add at least one speaker"
-msgstr "Vous devez ajouter au moins un orateur"
+msgstr "적어도 한 명 이상의 강사를 추가해야 합니다"
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:433
 msgid "You must add at least one submitter"
-msgstr "Vous devez ajouter au moins un déposant"
+msgstr "최소한 1명은 등록해야 합니다."
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:436
 msgid "You must add at least one co-author"
@@ -1129,8 +1127,7 @@ msgstr "Vous devez ajouter au moins un auteur"
 
 #: indico/web/client/js/jquery/widgets/jinja/person_link_widget.js:447
 msgid ""
-"You cannot have users in the Other section, please make them authors or co-"
-"authors"
+"You cannot have users in the Other section, please make them authors or co-authors"
 msgstr "Vous ne pouvez avoir des utilisateurs dans la section Autres, veuillez en faire des auteurs ou des co-auteurs"
 
 #: indico/web/client/js/legacy/angular/directives.js:67
@@ -1139,17 +1136,17 @@ msgstr "Ok"
 
 #: indico/web/client/js/legacy/angular/directives.js:115
 msgid "The content of this dialog is currently unavailable."
-msgstr "Le contenu de ce dialogue n'est actuellement pas disponible."
+msgstr "이 대화 상자의 내용은 현재 사용할 수 없습니다"
 
 #: indico/web/client/js/legacy/libs/indico/Common/Export.js:82
 msgid "Would you like to export private information to your calendar?"
-msgstr "Voulez-vous exporter les données protégées vers votre calendrier?"
+msgstr "보안 데이터를 귀하의 캘린더로 내보내시겠습니까?"
 
 #: indico/web/client/js/legacy/libs/indico/Common/Export.js:245
 msgid ""
 "Would you like to create a persistent URL for use with your calendaring "
 "application?"
-msgstr "Voulez-vous créer un URL persistant pour utiliser dans votre application de gestion de calendrier?"
+msgstr "캘린더 관리 애플리케이션에서 사용할 수 있는 영구 URL을 생성하시겠습니까?"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Popup.js:243
 msgid "OK"
@@ -1157,73 +1154,73 @@ msgstr "OK"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Popup.js:367
 msgid "Reason: "
-msgstr "Motif:"
+msgstr "사유:"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:26
 msgid "Remove from your list of favorite users"
-msgstr "Retirer de votre liste d'utilisateurs favoris"
+msgstr "사용자 목록에서 삭제"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:27
 msgid "Add to your list of favorite users"
-msgstr "Ajouter à votre liste d'utilisateurs favoris"
+msgstr "선호하는 사용자 목록에 추가하십시오."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:122
 msgid "This person exists in the event"
-msgstr "Cette personne existe dans l'événement"
+msgstr "이 사람은 이벤트에 존재합니다."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:191
 msgid "Users with no Indico account"
-msgstr "Utilisateurs sans compte Indico"
+msgstr "인디코 계정이 없는 사용자입니다."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:239
 msgid "Grant all selected users submission rights"
-msgstr "Donner les droits de dépôt aux utilisateurs sélectionnés"
+msgstr "선택받은 사용자에게 권리 부여"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:273
 msgid "You can use the form above to search for users..."
-msgstr "Vous pouvez utiliser le formulaire ci-dessus pour chercher des utilisateurs..."
+msgstr "위의 양식을 사용하여 사용자를 검색할 수 있습니다...."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:321
 msgid "Family name"
-msgstr "Nom de famille"
+msgstr "성"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:322
 msgid "First name"
-msgstr "Prénom"
+msgstr "이름"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:323
 msgid "E-mail"
-msgstr "Adresse électronique"
+msgstr "이메일 주소"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:324
 msgid "Organisation"
-msgstr "Organisation"
+msgstr "조직"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:325
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:437
 msgid "Exact Match"
-msgstr "Correspondance exacte"
+msgstr "정확한 일치"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:355
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:456
 msgid "No results for this search..."
-msgstr "Aucun résultat pour cette recherche..."
+msgstr "일치하는 결과가 없습니다..."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:437
 msgid "Group name"
-msgstr "Nom du groupe"
+msgstr "그룹 이름"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:543
 msgid "Users"
-msgstr "Utilisateurs "
+msgstr "사용자 "
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:544
 msgid "Groups"
-msgstr "Groupes"
+msgstr "그룹"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:620
 msgid "Suggested users"
-msgstr "Utilisateurs suggérés"
+msgstr "추천 사용자"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:625
 msgid "There are no suggested users for you at the moment. Why not add some "
@@ -1231,15 +1228,15 @@ msgstr "Il n'y a aucun utilisateur suggéré pour l'instant. Pourquoi ne pas en 
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:626
 msgid "favourites"
-msgstr "favoris"
+msgstr "선호하는"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:846
 msgid "Please select at least one item"
-msgstr "Veuillez  sélectionner au moins un article"
+msgstr "최소 하나의 항목을 선택하십시오."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:876
 msgid "Choose"
-msgstr "Choisissez"
+msgstr "선택하십시오."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:992
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1011
@@ -1253,15 +1250,15 @@ msgstr "Note:"
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1032
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1047
 msgid " If this person does not already have an Indico account, "
-msgstr " Si cette personne n'a pas encore de compte Indico, "
+msgstr " 만약 이 사람이 아직 인디코 계정을 가지고 있지 않다면, "
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:995
 msgid "he or she will be sent an email asking to register as a user."
-msgstr "elle recevra un courriel lui demandant de s'enregistrer."
+msgstr "등록하라는 이메일을 받게 됩니다."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:997
 msgid " After the registration the user will automatically be given"
-msgstr " Après enregistrement l'utilisateur recevra automatiquement"
+msgstr " 등록 후 사용자는 자동으로"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:999
 msgid " submission rights."
@@ -1269,52 +1266,52 @@ msgstr " les droits de dépôt."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1005
 msgid "Give management rights"
-msgstr "Donner les droits d'administration"
+msgstr "관리자 권환 부여"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1014
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1034
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1049
 msgid "he or she will be sent an email asking to create an account."
-msgstr "elle recevra un courriel lui demandant de créer un compte."
+msgstr "계정을 생성하도록 이메일이 발송될것입니다."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1016
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1036
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1051
 msgid " After the account creation the user will automatically be"
-msgstr " Après création du compte, la personne recevra automatiquement"
+msgstr " 계정이 생성되면, 해당 사용자는 자동으로"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1018
 msgid " given management rights."
-msgstr " les droits d'administration."
+msgstr " 관리자 권한을 부여받게 됩니다."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1025
 msgid "Give coordination rights"
-msgstr "Donner les droits de coordination"
+msgstr "관리 권한 부여하기"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1038
 msgid " given coordination rights."
-msgstr " les droits de coordination"
+msgstr " 관리 권한 부여 받았습니다."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1053
 msgid " given the rights."
-msgstr " les droits"
+msgstr " 권한을 부여 받았습니다."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1060
 #: indico/web/client/js/legacy/libs/timetable/Management.js:21
 msgid "Title"
-msgstr "Titre"
+msgstr "제목"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1065
 msgid "Mr"
-msgstr "M."
+msgstr "Mr."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1066
 msgid "Mrs"
-msgstr "Mme"
+msgstr "Mrs"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1067
 msgid "Ms"
-msgstr "Mlle"
+msgstr "Ms"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1068
 msgid "Dr"
@@ -1326,42 +1323,42 @@ msgstr "Prof. "
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1075
 msgid "Family Name"
-msgstr "Nom de Famille"
+msgstr "성"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1082
 msgid "First Name"
-msgstr "Prénom "
+msgstr "이름 "
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1086
 msgid "Affiliation"
-msgstr "Affiliation"
+msgstr "제휴"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1090
 msgid "Email"
-msgstr "Adresse électronique"
+msgstr "이메일"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1100
 msgid "Address"
-msgstr "Adresse "
+msgstr "주소 "
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1101
 msgid "Telephone"
-msgstr "Téléphone"
+msgstr "전화번호"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1120
 msgid ""
 "It is not possible to grant submission rights to a participant without an "
 "email address. Please set an email address."
-msgstr "Impossible d'assigner des droits de dépôt à un participant sans adresse électronique. veuillez entrer une adresse électronique."
+msgstr "이메일 주소가 없는 참가자에게 등록 권한을 할당할 수 없습니다. 이메일 주소를 입력하십시오."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1194
 msgid "User privileges"
-msgstr "Priviléges de l'utilisateur"
+msgstr "사용자 권한"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1239
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1240
 msgid "User rights"
-msgstr "Droits de l'utilisateur"
+msgstr "사용자 권한"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1261
 msgid "Submission rights"
@@ -1372,41 +1369,41 @@ msgid ""
 "Please note that you have added a user that does not exist in Indico.\n"
 "                                    Non existing users will be asked via email to create an account so\n"
 "                                    that they will be able to use the privileges below."
-msgstr "Vous avez ajouté un utilisateur inconnu d'Indico.\nUn courriel sera envoyé aux utilisateurs inconnus pour leur demander de se créer un compte afin qu'ils puissent bénéficier des privilèges ci-dessous."
+msgstr "존재하지 않는 사용자를 추가했습니다.\n알 수 없는 사용자에게 계정 생성을 요청하는 이메일을 보낼 것입니다."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1450
 msgid ""
 "Please note that you have added a user without an email address. Users without \n"
 "                                    email will not be able to use the privileges below."
-msgstr "Vous avez ajouté un utilisateur sans adresse électronique. Cet utilisateur ne pourra donc pas bénéficier des privilèges ci-dessous."
+msgstr "이메일 주소가 없는 사용자를 추가했습니다. 따라서 이 사용자는 아래의 권한을 부여받을 수 없습니다."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1528
 msgid "Add User / Group"
-msgstr "Ajouter Utilisateurs / Groupes"
+msgstr "사용자 / 그룹 추가"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1528
 msgid "Add user"
-msgstr "Ajouter un utilisateur"
+msgstr "사용자 추가"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1537
 msgid "Add IP Network"
-msgstr "Ajouter un réseau IP"
+msgstr "IP 네트워크를 추가"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1561
 msgid "Add Users and Groups"
-msgstr "Ajouter Utilisateurs et Groupes"
+msgstr "사용자 및 그룹 추가"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1561
 msgid "Add Users"
-msgstr "Ajouter Utilisateurs"
+msgstr "사용자 추가"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1563
 msgid "Search Users and Groups"
-msgstr "Rechercher Utilisateurs et Groupes"
+msgstr "사용자 / 그룹 검색"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1563
 msgid "Search Users"
-msgstr "Rechercher Utilisateurs"
+msgstr "사용자 검색"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1648
 msgid "Add New"
@@ -1414,11 +1411,11 @@ msgstr "Ajouter Nouveau"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1654
 msgid "New user"
-msgstr "Nouvel utilisateur"
+msgstr "새로운 사용자"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1680
 msgid "Grant all these users with privileges: "
-msgstr "Accorder à tous ces utilisateurs les privilèges suivants:"
+msgstr "이 모든 사용자에게 다음과 같은 권한을 부여합니다.:"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Util.js:33
 msgid "Please reload the page and report this error to us if it persists."
@@ -1426,7 +1423,7 @@ msgstr "Veuillez rafraichir la page et nous rapporter l'erreur si elle persiste.
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Util.js:34
 msgid "Report Error"
-msgstr "Rapporter l'erreur"
+msgstr "에러 보고서"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Util.js:42
 msgid "Thanks for your error report!"
@@ -1435,16 +1432,16 @@ msgstr "Merci pour votre rapport d'erreur!"
 #: indico/web/client/js/legacy/libs/indico/Core/Widgets/Base.js:465
 #: indico/web/client/js/legacy/libs/indico/Core/Widgets/Base.js:473
 msgid "Previous tab"
-msgstr "Onglet précédent"
+msgstr "이전 탭"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Widgets/Base.js:485
 #: indico/web/client/js/legacy/libs/indico/Core/Widgets/Base.js:492
 msgid "Next tab"
-msgstr "Onglet suivant"
+msgstr "다음 탭"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Widgets/RichText.js:212
 msgid "switch to plain text"
-msgstr "changer pour texte brut"
+msgstr "원문으로 바꾸십시오."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Widgets/RichText.js:213
 msgid "switch to rich text"
@@ -1452,98 +1449,98 @@ msgstr "changer pour texte enrichi"
 
 #: indico/web/client/js/legacy/libs/indico/Legacy/Util.js:309
 msgid "At least one must be selected"
-msgstr "Au moins un doit être sélectionné"
+msgstr "하나 이상 선택해야 합니다."
 
 #: indico/web/client/js/legacy/libs/indico/Legacy/Util.js:313
 msgid "Please enable the checkbox"
-msgstr "Veuillez activer la case à cocher"
+msgstr "체크박스를 활성화시키세요."
 
 #: indico/web/client/js/legacy/libs/indico/Legacy/Util.js:317
 #: indico/web/client/js/legacy/libs/indico/Legacy/Util.js:321
 msgid "Please choose an option"
-msgstr "Veuillez choisir une option"
+msgstr "옵션을 선택하세요."
 
 #: indico/web/client/js/legacy/libs/indico/Legacy/Util.js:328
 msgid "Field must be a number"
-msgstr "Le champ doit être un nombre"
+msgstr "필드는 반드시 숫자로 입력되어야 합니다."
 
 #: indico/web/client/js/legacy/libs/indico/Legacy/Util.js:340
 msgid "Field must be a positive number"
-msgstr "Le champ doit être un nombre positif"
+msgstr "필드는 반드시 양수로 입력되어야 합니다."
 
 #: indico/web/client/js/legacy/libs/indico/Legacy/Util.js:346
 msgid "Date format is not valid. It should be dd/mm/yyyy hh:mm"
-msgstr "Format de date incorrect. Le format correct est jj/mm/aaaa hh:mm"
+msgstr "날짜 형식이 잘못되었습니다. 올바른 포맷은 jj/mm/aaaa hh:mm 입니다."
 
 #: indico/web/client/js/legacy/libs/indico/Legacy/Util.js:352
 msgid "Invalid e-mail address"
-msgstr "Adresse électronique incorrecte"
+msgstr "유효하지 않은 이메일 주소입니다."
 
 #: indico/web/client/js/legacy/libs/indico/Legacy/Util.js:358
 msgid "Invalid URL"
-msgstr "URL incorrect"
+msgstr "유효하지 않은 URL입니다."
 
 #: indico/web/client/js/legacy/libs/indico/Legacy/Util.js:360
 msgid "Time format is not valid. It should be hh:mm"
-msgstr "Format d'horaire incorrect. Le format correct est hh:mm"
+msgstr "시간 포맷이 유효하지 않습니다. hh:mm이어야 합니다."
 
 #: indico/web/client/js/legacy/libs/indico/Legacy/Util.js:366
 msgid "Field is mandatory"
-msgstr "Le champ est obligatoire"
+msgstr "필드는 필수 항목입니다."
 
 #: indico/web/client/js/legacy/libs/timetable/Actions.js:225
 msgid "Add break"
-msgstr "Ajouter une pause"
+msgstr "쉬는 시간 추가"
 
 #: indico/web/client/js/legacy/libs/timetable/Actions.js:241
 msgid "Add session"
-msgstr "Ajouter une session"
+msgstr "세션 추가"
 
 #: indico/web/client/js/legacy/libs/timetable/Actions.js:269
 msgid "Add session block"
-msgstr "Ajouter un bloc de session"
+msgstr "세션 블록 추가"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:43
 msgid "Session"
-msgstr "Session"
+msgstr "세션"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:44
 msgid "Room"
-msgstr "Salle"
+msgstr "강의실"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:131
 msgid "Updating the timetable..."
-msgstr "Mise à jour de l'ordre du jour... "
+msgstr "시간표 업데이트중... "
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:182
 #: indico/web/client/js/legacy/libs/timetable/Base.js:421
 msgid "Filter"
-msgstr "Filtre "
+msgstr "필터 "
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:200
 msgid "Printable version"
-msgstr "Version Imprimable "
+msgstr "인쇄 가능한 버전"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:221
 msgid "Go back"
-msgstr "Retour"
+msgstr "뒤로가기"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:228
 #: indico/web/client/js/legacy/libs/timetable/Base.js:387
 msgid "Print"
-msgstr "Imprimer "
+msgstr "인쇄하기 "
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:272
 msgid "Export to PDF"
-msgstr "Exporter en PDF"
+msgstr "PDF로 내보내기"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:280
 msgid "Switching to full screen mode..."
-msgstr "Passer en mode plein écran..."
+msgstr "전체화면으로 전환..."
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:317
 msgid "Exit Full Screen"
-msgstr "Quitter le plein écran"
+msgstr "전체화면 나가기"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:394
 msgid "PDF"
@@ -1551,27 +1548,27 @@ msgstr "PDF "
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:401
 msgid "Full screen"
-msgstr "Plein écran"
+msgstr "전체화면"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:408
 msgid "Link"
-msgstr "Lien"
+msgstr "링크"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:413
 msgid "Detailed view"
-msgstr "Vue détaillée "
+msgstr "디테일 사항 "
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:476
 msgid "All days"
-msgstr "Tous les jours "
+msgstr "매일 "
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:689
 msgid "You are viewing the contents of the session block:"
-msgstr "Vous visualisez le contenu du bloc de session:"
+msgstr "세션 블록의 내용을 볼 수 있습니다:"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:778
 msgid "Your changes triggered the automatic modification of some settings:"
-msgstr "Les changements effectués ont déclenché la modification automatique de certains paramètres:"
+msgstr "이 변경으로 인해 특정 매개변수가 자동으로 변경되었습니다.:"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:786
 #: indico/web/client/js/legacy/libs/timetable/Base.js:790
@@ -1583,7 +1580,7 @@ msgstr " L'<strong>horaire de début</strong> de la plage horaire <strong>"
 #: indico/web/client/js/legacy/libs/timetable/Base.js:801
 #: indico/web/client/js/legacy/libs/timetable/Base.js:805
 msgid "</strong> was moved from "
-msgstr "</strong> a été déplacé de "
+msgstr "</strong> 는 이동되었습니다. "
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:793
 msgid ""
@@ -1608,15 +1605,15 @@ msgstr "Le contenu de la plage horaire <strong>"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:814
 msgid "</strong> were moved from "
-msgstr "</strong> ont été déplacés de "
+msgstr "</strong> 들은 이동되었습니다. "
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:824
 msgid " to "
-msgstr "à"
+msgstr "로"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:1017
 msgid "Session block"
-msgstr "Bloc de session"
+msgstr "세션 블록"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:1035
 msgid "Contribution"
@@ -1624,11 +1621,11 @@ msgstr "Contribution"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:1049
 msgid "Break"
-msgstr "Pause "
+msgstr "휴식 "
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:1071
 msgid "Add poster"
-msgstr "Ajouter un poster"
+msgstr "포스터 추가하기"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:1076
 msgid "Add new"
@@ -1645,11 +1642,11 @@ msgstr "Ajuster au contenu"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:1099
 msgid "Add new block"
-msgstr "Ajouter un nouveau bloc"
+msgstr "새로운 블록 추가하기"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:1143
 msgid "Add one hour"
-msgstr "Ajouter une heure"
+msgstr "한시간 추가하기"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:1212
 msgid "Session legend"
@@ -1657,7 +1654,7 @@ msgstr "Légende de la session"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:1248
 msgid "see more..."
-msgstr "voir plus..."
+msgstr "더보기..."
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:1253
 msgid "less..."
@@ -1665,7 +1662,7 @@ msgstr "moins..."
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:1598
 msgid "Go to event timetable"
-msgstr "Aller à l'ordre du jour de l'événement"
+msgstr "이벤트 일정으로 이동하기"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js:1768
 msgid "Up to timetable"
@@ -1683,7 +1680,7 @@ msgstr "<span class=\"key light\">Shift</span> est enfoncée. Les changements se
 
 #: indico/web/client/js/legacy/libs/timetable/DragAndDrop.js:594
 msgid "Drop to move block inside session"
-msgstr "Relacher pour transférer le bloc dans la session"
+msgstr "다시 연결해서 세션으로 블록을 이동시킵니다."
 
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:135
 msgid "Show materials"
@@ -1695,7 +1692,7 @@ msgstr "et al."
 
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:332
 msgid "This poster session has "
-msgstr "Cette session poster a"
+msgstr "이 포스터 세션은 가졌습니다."
 
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:334
 msgid " contribution(s)."
@@ -1703,7 +1700,7 @@ msgstr "contribution(s)."
 
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:336
 msgid "Please click for more information."
-msgstr "Veuillez cliquer pour plus d'informations. "
+msgstr "더 많은 정보를 보시려면 클릭하세요. "
 
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:732
 msgid "Move entry"
@@ -1712,23 +1709,23 @@ msgstr "Déplacer l'entrée"
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:776
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:787
 msgid "This timetable entry does not exist anymore. Please refresh the page."
-msgstr "Cette entrée de l'ordre du jour n'existe plus. Veuiller rafraichir la page."
+msgstr "이 시간표 항목은 더 이상 존재하지 않습니다. 페이지를 새로 고쳐주세요."
 
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:788
 msgid "Refresh"
-msgstr "Rafraichir"
+msgstr "새로고침"
 
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:891
 msgid "Move up"
-msgstr "Déplacer vers le haut"
+msgstr "위로 이동하기"
 
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:900
 msgid "Move down"
-msgstr "Déplacer vers le bas "
+msgstr "아래로 이동하기 "
 
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:1588
 msgid "Edit poster"
-msgstr "Modifier le poster"
+msgstr "포스터 편집하기"
 
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:1620
 msgid "Manage protection"
@@ -1752,27 +1749,27 @@ msgstr "Êtes-vous sûr de vouloir déprogrammer le poster?"
 
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:1655
 msgid "Delete poster"
-msgstr "Supprimer le poster"
+msgstr "포스터 삭제하기"
 
 #: indico/web/client/js/legacy/libs/timetable/Draw.js:1656
 msgid "Are you sure you want to delete the poster?"
-msgstr "Êtes-vous sur de vouloir supprimer ce poster?"
+msgstr "정말로 포스터를 삭제하시겠습니까?"
 
 #: indico/web/client/js/legacy/libs/timetable/Filter.js:219
 msgid "Sessions"
-msgstr "Sessions"
+msgstr "세션"
 
 #: indico/web/client/js/legacy/libs/timetable/Filter.js:224
 msgid "No sessions in the timetable"
-msgstr "Aucune session dans l'ordre du jour"
+msgstr "시간표에 세션이 없습니다."
 
 #: indico/web/client/js/legacy/libs/timetable/Filter.js:228
 msgid "Rooms"
-msgstr "Salles "
+msgstr "강의실 "
 
 #: indico/web/client/js/legacy/libs/timetable/Filter.js:233
 msgid "No rooms found in the timetable"
-msgstr "Aucune salle trouvée dans l'ordre du jour"
+msgstr "시간표에 강의실이 존재하지 않습니다."
 
 #: indico/web/client/js/legacy/libs/timetable/Filter.js:238
 msgid "Filter options"
@@ -1780,27 +1777,27 @@ msgstr "Options du filtre "
 
 #: indico/web/client/js/legacy/libs/timetable/Filter.js:244
 msgid "Reset filter"
-msgstr "Réinitialiser le filtre "
+msgstr "필터 초기화 "
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:15
 msgid "All"
-msgstr "Tous"
+msgstr "모든"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:16
 msgid "None"
-msgstr "Aucun"
+msgstr "아무것도"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:19
 msgid "ID"
-msgstr "Identifiant"
+msgstr "ID"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:24
 msgid "Sort by: "
-msgstr "Classer par"
+msgstr "정렬된"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:29
 msgid "Select: "
-msgstr "Choisissez: "
+msgstr "선택: "
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:188
 msgid "Add Contribution"
@@ -1808,15 +1805,15 @@ msgstr "Ajouter une contribution"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:238
 msgid "Add selected"
-msgstr "Ajouter la sélection"
+msgstr "선택된 것 추가하기"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:273
 msgid "Create a new one"
-msgstr "Créer un nouveau"
+msgstr "추가하기"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:280
 msgid "You may choose to:"
-msgstr "Vous pouvez choisir de:"
+msgstr "귀하가 선택한것:"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:286
 msgid "Choose one (or more) unscheduled"
@@ -1837,7 +1834,7 @@ msgstr "Étape 1: Choisir le type de reprogrammation"
 #: indico/web/client/js/legacy/libs/timetable/Management.js:397
 #: indico/web/client/js/legacy/libs/timetable/Management.js:434
 msgid "See an example"
-msgstr "Voir un exemple"
+msgstr "예시 보기"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:402
 msgid "Adjust starting time of all entries"
@@ -1884,7 +1881,7 @@ msgstr "Ajuster la"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:443
 msgid " duration "
-msgstr "durée"
+msgstr "지속시간"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:444
 msgid "of the entries of "
@@ -1917,7 +1914,7 @@ msgstr "Ceci change les horaires de début et de fin des blocs de session afin d
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:594
 msgid "before"
-msgstr "avant"
+msgstr "이전"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:595
 msgid " performing the rescheduling."
@@ -1933,23 +1930,23 @@ msgstr "Les entrées seront séparées par des intervalles de temps de"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:626
 msgid "1 hour "
-msgstr "1 heure"
+msgstr "1시간"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:628
 msgid " hours "
-msgstr "heures"
+msgstr "시간"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:632
 msgid "and "
-msgstr "et"
+msgstr "그리고"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:636
 msgid "1 minute."
-msgstr "1 minute. "
+msgstr "1분 "
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:638
 msgid " minutes."
-msgstr "minutes."
+msgstr "분"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:719
 msgid "Rescheduling..."
@@ -1965,7 +1962,7 @@ msgstr "Les entrées qui font partie de cette session seront"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:747
 msgid " first"
-msgstr "premier"
+msgstr "처음"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:749
 msgid " be fitted to their content."
@@ -1997,7 +1994,7 @@ msgstr "changés."
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:765
 msgid "Please review your choice"
-msgstr "Veuillez revoir vos choix"
+msgstr "다시 선택해주세요."
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:781
 msgid "Please select the rescheduling type"
@@ -2015,16 +2012,16 @@ msgstr "Ceci changera les horaires de début et de fin du bloc de session {0} af
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:854
 msgid "Are you sure you want to proceed?"
-msgstr "Êtes-vous sûr de vouloir continuer?"
+msgstr "진행하시겠습니까?"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:876
 msgid "Fitting..."
-msgstr "Ajustement en cours..."
+msgstr "조정 진행 중..."
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js:890
 msgid "Fit timetable to content"
-msgstr "Adapter l'horaire au contenu"
+msgstr "일정과 내용"
 
 #: indico/web/client/js/legacy/libs/timetable/Undo.js:13
 msgid "Undo last operation"
-msgstr "Annuler la dernière opération"
+msgstr "마지막 작업 취소"

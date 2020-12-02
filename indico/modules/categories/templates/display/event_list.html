@@ -39,19 +39,7 @@ show_past_events=false, has_hidden_events=false, request_params={}) %} {#- reque
     the past. {%- pluralize -%} There are {{ count }} events in the past. {%- endtrans %} {% endcall %} {% endif %}
 </div>
 <script>
-    setupCategoryDisplayEventList({
-        {
-            (show_future_events and not future_events_by_month) | tojson
-        }
-    }, {
-        {
-            (show_past_events and not past_events_by_month) | tojson
-        }
-    }, {
-        {
-            request_params | tojson
-        }
-    });
+    setupCategoryDisplayEventList({{(show_future_events and not future_events_by_month) | tojson}}, {{(show_past_events and not past_events_by_month) | tojson}}, {{request_params | tojson}});
 </script>
 {% endmacro %} {% macro event_list_block(events_by_month, format_event_date, is_recent, happening_now) %}
 <h2> 전체 일정</h2>
